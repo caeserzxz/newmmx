@@ -162,19 +162,23 @@
             <img src="/Public/Zyly/images/index1ik@2x.png" alt=""><?php endif; ?>
         <span>首页</span>
     </div>
-    <div class="bottom-navItem <?php if($cont =='Map'){echo 'bottom-navItem-act';}?> localurl " data-url="Map/map">
-        <?php if($cont == 'Map'): ?><img src="/Public/Zyly/images/map2ik@2x.png" alt="">
-        <?php else: ?>
-            <img src="/Public/Zyly/images/map1ik@2x.png" alt=""><?php endif; ?>
-        <span>代理</span>
-    </div>
-    
-    <div class="bottom-navItem  <?php if($cont =='Vip'){echo 'bottom-navItem-act';}?> localurl " data-url="Vip/memberCenter">
-        <?php if($cont == 'Vip'): ?><img src="/Public/Zyly/images/vip2ik@2x.png" alt="">
-        <?php else: ?>
-            <img src="/Public/Zyly/images/vip1ik@2x.png" alt=""><?php endif; ?>
-        <span>会员</span>
-    </div>
+    <!--<div class="bottom-navItem <?php if($cont =='Map'){echo 'bottom-navItem-act';}?> localurl " data-url="Map/map">-->
+        <!--<?php if($cont == 'Map'): ?>-->
+            <!--<img src="/Public/Zyly/images/map2ik@2x.png" alt="">-->
+        <!--<?php else: ?>-->
+            <!--<img src="/Public/Zyly/images/map1ik@2x.png" alt="">-->
+        <!--<?php endif; ?>-->
+        <!--<span>代理</span>-->
+    <!--</div>-->
+    <!---->
+    <!--<div class="bottom-navItem  <?php if($cont =='Vip'){echo 'bottom-navItem-act';}?> localurl " data-url="Vip/memberCenter">-->
+        <!--<?php if($cont == 'Vip'): ?>-->
+            <!--<img src="/Public/Zyly/images/vip2ik@2x.png" alt="">-->
+        <!--<?php else: ?>-->
+            <!--<img src="/Public/Zyly/images/vip1ik@2x.png" alt="">-->
+        <!--<?php endif; ?>-->
+        <!--<span>会员</span>-->
+    <!--</div>-->
     <div class="bottom-navItem <?php if($cont =='Person'){echo 'bottom-navItem-act';}?> localurl"  data-url="person/person">
         <?php if($cont == 'Person'): ?><img src="/Public/Zyly/images/person2ik@2x.png" alt="">
         <?php else: ?>

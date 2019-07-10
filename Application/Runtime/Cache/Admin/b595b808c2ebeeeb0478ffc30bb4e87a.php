@@ -187,11 +187,11 @@
                     <li>
                         <a data-title="广告管理" data-href="<?php echo U('Guanggao/index');?>" href="<?php echo U('Guanggao/index');?>" target="iframe">广告管理</a>
                     </li>
-                    <li>
-                        <a data-title="通知管理" data-href="<?php echo U('Guanggao/notice');?>" href="<?php echo U('Guanggao/notice');?>" target="iframe">通知管理</a>
-                    </li>
-                    <li>
-                        <a data-title="添加通知" data-href="<?php echo U('Guanggao/notice_add');?>" href="<?php echo U('Guanggao/notice_add');?>" target="iframe">添加通知</a>
+                    <!--<li>-->
+                        <!--<a data-title="通知管理" data-href="<?php echo U('Guanggao/notice');?>" href="<?php echo U('Guanggao/notice');?>" target="iframe">通知管理</a>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<a data-title="添加通知" data-href="<?php echo U('Guanggao/notice_add');?>" href="<?php echo U('Guanggao/notice_add');?>" target="iframe">添加通知</a>-->
                     </li>
                 </ul>
             </dd>
@@ -206,14 +206,14 @@
                 </ul>
             </dd>
         </dl>
-        <dl id="menu-member">
-            <dt><i class="Hui-iconfont">&#xe60d;</i> 商城管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
-            <dd>
-                <ul>
-                    <li><a data-href="<?php echo U('User/index');?>" data-title="商城等级管理" href="<?php echo U('User/shop_list');?>" target="iframe">商城分佣比例列表</a></li>
-                </ul>
-            </dd>
-        </dl>
+        <!--<dl id="menu-member">-->
+            <!--<dt><i class="Hui-iconfont">&#xe60d;</i> 商城管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>-->
+            <!--<dd>-->
+                <!--<ul>-->
+                    <!--<li><a data-href="<?php echo U('User/index');?>" data-title="商城等级管理" href="<?php echo U('User/shop_list');?>" target="iframe">商城分佣比例列表</a></li>-->
+                <!--</ul>-->
+            <!--</dd>-->
+        <!--</dl>-->
     </div>
 
 </aside>

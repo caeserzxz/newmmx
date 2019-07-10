@@ -76,27 +76,31 @@
             </div>
             <div class="serv-item" onclick="select_address(20)">
                 <img src="/Public/Zyly/images/daishouh@2x.png" alt="">
-                <p>待收货</p>
+                <p>待发货</p>
             </div>
             <div class="serv-item" onclick="select_address(30)">
+                <img src="/Public/Zyly/images/daishouh@2x.png" alt="">
+                <p>待收货</p>
+            </div>
+            <div class="serv-item" onclick="select_address(40)">
                 <img src="/Public/Zyly/images/daipingj@2x.png" alt="">
                 <p>已完成</p>
             </div>
-            <div id="kefu" class="serv-item" onclick="callphone();">
-                <img src="/Public/Zyly/images/kefu@2x.png" alt="">
-                <p>售后服务</p>
-            </div>
+            <!--<div id="kefu" class="serv-item" onclick="callphone();">-->
+                <!--<img src="/Public/Zyly/images/kefu@2x.png" alt="">-->
+                <!--<p>售后服务</p>-->
+            <!--</div>-->
         </div>
         <div class="line"></div>
 
         <div class="selectBox">
-            <a href="<?php echo U('Vip/memberCenter');?>">
+            <a href="<?php echo U('Vip/vip_introduction');?>">
                 <div class="selectBox-item">
                     <div class="selectBox-left">
                         <img src="/Public/Zyly/images/zan@2x.png" alt="">
                         <span>会员中心</span>
                     </div>
-                
+
                     <div class="selectBox-right">
                         <img src="/Public/Zyly/images/jiantou@2x1.png" alt="">
                     </div>

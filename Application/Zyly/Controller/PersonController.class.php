@@ -53,7 +53,7 @@ class PersonController extends Controller{
                     'country' => '中国',
                     'headimgurl' => 'http://wx.qlogo.cn/mmopen/vi_32/sPEGYt1iaIqf9U9PicLxIyqeiaTSg6POjcsrgnfS0ahjED4JBOEKe8q2DroHziafKfwMMpudcgJEvibibsnp69W4u1sw/0',
                     'phone' => '13763252809',
-                    'id' => '1',
+                    'id' => '3',
                     'level_id'=> '1',
                     'is_promoter' => '1',
                     'pid' => '1001389_18022948',
@@ -134,7 +134,11 @@ class PersonController extends Controller{
             $list = M('order')->alias('a')->join('LEFT JOIN lr_order_product b  on a.id = b.order_id')->where($where)->field('a.*,b.pid,b.name,b.photo_x,b.num')->order('a.addtime desc')->select();
             $this->ajaxreturn($list);
         }else{
-            $list =  M('order')->alias('a')->join('LEFT JOIN lr_order_product b  on a.id = b.order_id')->where(array('a.uid'=>$user_info['id']))->field('a.*,b.pid,b.name,b.photo_x,b.num')->order('a.addtime desc')->select();
+            if($status!=1){
+                $where1['status'] = $status;
+            }
+            $where1['a.uid'] = $user_info['id'];
+            $list =  M('order')->alias('a')->join('LEFT JOIN lr_order_product b  on a.id = b.order_id')->where($where1)->field('a.*,b.pid,b.name,b.photo_x,b.num')->order('a.addtime desc')->select();
             $this->assign('status',$status);
             $this->assign('orders',$list);
             $this->display();
@@ -438,4 +442,24 @@ class PersonController extends Controller{
         $this->assign('record',$record);
         $this->display();
     }
+
+    //立即收货
+    public function receiving_goods(){
+        $id = I('id');
+
+        $map['status'] = 40;
+
+        $res = M('order')->where(array('id'=>$id))->save($map);
+        if($res){
+            $return['status'] = 1;
+            $return['msg'] = '操作成功';
+            $this->ajaxreturn($return);
+        }else{
+            $return['status'] = -1;
+            $return['msg'] = '操作失败';
+            $this->ajaxreturn($return);
+        }
+
+    }
+
 }

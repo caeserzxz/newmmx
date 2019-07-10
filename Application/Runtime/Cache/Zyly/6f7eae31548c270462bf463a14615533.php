@@ -21,12 +21,15 @@
             <?php if($status == 10): ?><span class="stativAct" onclick="myorder(10)">待付款</span>
             <?php else: ?>
                 <span onclick="myorder(10)">待付款</span><?php endif; ?>
-            <?php if($status == 20): ?><span class="stativAct" onclick="myorder(20)">待收货</span>
+            <?php if($status == 20): ?><span class="stativAct" onclick="myorder(20)">待发货</span>
             <?php else: ?>
-                <span onclick="myorder(20)">待收货</span><?php endif; ?>
-            <?php if($status == 30): ?><span class="stativAct" onclick="myorder(30)">已完成</span>
+                <span onclick="myorder(30)">待发货</span><?php endif; ?>
+            <?php if($status == 30): ?><span class="stativAct" onclick="myorder(30)">待收货</span>
+                <?php else: ?>
+                <span onclick="myorder(30)">待收货</span><?php endif; ?>
+            <?php if($status == 30): ?><span class="stativAct" onclick="myorder(40)">已完成</span>
             <?php else: ?>
-                <span onclick="myorder(30)">已完成</span><?php endif; ?>
+                <span onclick="myorder(40)">已完成</span><?php endif; ?>
             <!-- <?php if($status == 50): ?><span class="stativAct" onclick="myorder(50)">售后服务</span>
             <?php else: ?>
                 <span onclick="myorder(50)">售后服务</span><?php endif; ?> -->
@@ -76,6 +79,7 @@
                     <!-- <?php if($status == 30): ?><span onclick="comment(<?php echo ($vol["id"]); ?>);">立即评价</span><?php endif; ?> -->
                         <!-- <span>取消订单</span> -->
                         <?php if($vol["status"] == 10): ?><a href="/index.php/Zyly/Goods/wechatPay?order_id=<?php echo ($vol["id"]); ?>"><span>立即付款</span></a><?php endif; ?>
+                        <?php if($vol["status"] == 30): ?><a href="#" onclick="receiving_goods(<?php echo ($vol["id"]); ?>);"><span>立即收货</span></a><?php endif; ?>
                     </div>
                 </div>
             </div><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -96,6 +100,7 @@
     </div>
     
 </body>
+<script src="/Public/Zyly/js/layer-v3.1.1/layer/layer.js"></script>
     <script>
         $(function () { 
             $(".myOrderNav span").click(function () { 
@@ -131,9 +136,15 @@
                                 +                '<div>已付金额&nbsp;:&nbsp;￥'+v.amount+'</div>'
                                 +            '</div>'
                                 +            '<div class="myOrderContItem-bottom-right" data-id='+v.id+'>'
-                                +              '<a href="/index.php/Zyly/Goods/wechatPay?order_id='+v.id+'"><span>立即收货</span></a>'
                                 +            '</div>';
                         }else if(v.status == 30){
+                            var  str1 =  '<div class="myOrderContItem-bottom-left">'
+                                +                '<div>已付金额&nbsp;:&nbsp;￥'+v.amount+'</div>'
+                                +            '</div>'
+                                +            '<div class="myOrderContItem-bottom-right" data-id='+v.id+'>'
+                                +              '<a href="#" onclick="receiving_goods('+v.id +');"><span>立即收货</span></a>'
+                                +            '</div>';
+                        }else if(v.status == 40){
                             var  str1 =  '<div class="myOrderContItem-bottom-left">'
                                 +                '<div>已付金额&nbsp;:&nbsp;￥'+v.amount+'</div>'
                                 +            '</div>'
@@ -189,6 +200,32 @@
         //立即评价
         function comment(id){
             location.href='<?php echo U("Person/comment");?>?id='+id;
+        }
+
+        //立即收货
+        function receiving_goods(id){
+            if(confirm('确定要收货吗')==true){
+                $.ajax({
+                    'url':'/index.php/Zyly/Person/receiving_goods',
+                    'type':'post',
+                    'data':{'id':id},
+                    'dataType':'json',
+                    'success':function(data){
+                        console.log(data)
+                        if(data.status==1){
+                            layer.msg(data.msg,{time:2000},function(){
+                                location.reload()
+                            });
+                            return false;
+                        }else{
+                            layer.msg(data.msg);
+                            return false;
+                        }
+                    }
+                });
+
+            }
+
         }
     </script>
 </html>

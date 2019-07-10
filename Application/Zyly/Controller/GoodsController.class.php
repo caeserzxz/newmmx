@@ -273,6 +273,7 @@ class GoodsController extends Controller {
     public function wechatPay(){
         $admin = $this->admin;
         $user = session('WechatUser');
+        $user = M('user')->where(array('id'=>$user['id']))->find();
         $index = D('Index');
 
         $order_id = I('order_id');
@@ -284,9 +285,16 @@ class GoodsController extends Controller {
             $shop_type = I('shop_type');
             $goods= M('Product')->where(array('id'=>$goods_id))->find();
             $address = M('Address')->where(array('id'=>$address_id))->find();
+            if($goods['level_id']>$user['level_id']){
+                $price = $goods['price'];
+                $amount = $goods['price']*$num;
+            }else{
+                $price = $goods['price_old'];
+                $amount = $goods['price_old']*$num;
+            }
             $openid = $user['openid']; # 用户openid
             $getPay= session('payDetail'); # 订单信息
-            $getPay['money'] = $goods['price']*$num;
+            $getPay['money'] = $amount;
             // $getPay['money']= $admin['level_money'];
             // dump($getPay);
 
@@ -294,10 +302,10 @@ class GoodsController extends Controller {
             # 2018 02 07 修改
             $map['order_sn'] = create_order_sn();
             $map['uid'] = $users_id;
-            $map['price'] = $goods['price'];
-            $map['amount'] = $goods['price']*$num;
+            $map['price'] = $price;
+            $map['amount'] = $amount;
             $map['addtime'] = time();
-            $map['price_h'] = $goods['price']*$num;
+            $map['price_h'] = $amount;
             $map['status'] = 10;
             $map['receiver'] = $address['name'];
             $map['tel'] = $address['tel'];
@@ -312,7 +320,7 @@ class GoodsController extends Controller {
             $order_p['pid'] = $goods['id'];
             $order_p['order_id'] = $visitlog;
             $order_p['name'] = $goods['name'];
-            $order_p['price'] = $goods['price'];
+            $order_p['price'] = $price;
             $order_p['photo_x'] = $goods['photo_x'];
             $order_p['addtime'] = time();
             $order_p['num'] = $num;
@@ -328,7 +336,7 @@ class GoodsController extends Controller {
             $getPay= session('payDetail'); # 订单信息
             $getPay['money'] = $order['amount'];
 
-            $attach = json_encode(array('user_id'=>$users_id,'orderIds'=>$order['id'],'order_p_id'=> $order_goods['id'],'goods_id'=>$goods['id']));
+            $attach = json_encode(array('user_id'=>$user['id'],'orderIds'=>$order['id'],'order_p_id'=>$order_goods['id'],'goods_id'=>$goods['id']));
         }
 
 

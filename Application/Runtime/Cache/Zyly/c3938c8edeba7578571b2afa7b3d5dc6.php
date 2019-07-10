@@ -19,7 +19,7 @@
                 1.会员等级划分及介绍
             </div>
             <div class="VIPItem1-cont">
-                会员级别共分为4个级别，分别为免费会员、<?php echo ($gold["level_name"]); ?>、<?php echo ($plat["level_name"]); ?>、<?php echo ($daim["level_name"]); ?>。会员级别由60天内消费金额决定，消费金额越高会员等级越高，享受的会员权益越大。会员级别由系统自动处理，无需申请。
+                会员级别共分为4个级别，分别为免费会员、联创会员、合伙人，会员等级越高享受的会员权益越大。会员级别由系统自动处理，无需申请。
             </div>
         </div>
         <div class="VIPItem2">
@@ -30,23 +30,23 @@
                 <div class="VIPItem2Box">
                     <img src="/Public/Zyly/images/4XING@2x.png" alt="">
                     <p>免费会员</p>
-                    <p>0-<?php echo ($gold["level_price"]); ?></p>
+                    <p>0盒</p>
                 </div>
                 <div class="VIPItem2Box">
                     <img src="/Public/Zyly/images/5XING@2x.png" alt="">
                     <p><?php echo ($gold["level_name"]); ?></p>
-                    <p><?php echo ($gold["level_price"]); ?>-<?php echo ($plat["level_price"]); ?></p>
+                    <p>1盒</p>
                 </div>
                 <div class="VIPItem2Box">
                     <img src="/Public/Zyly/images/6XING@2x.png" alt="">
                     <p><?php echo ($plat["level_name"]); ?></p>
-                    <p><?php echo ($plat["level_price"]); ?>-<?php echo ($daim["level_price"]); ?></p>
+                    <p>10盒</p>
                 </div>
-                <div class="VIPItem2Box">
-                    <img src="/Public/Zyly/images/zuans@2x.png" alt="">
-                    <p><?php echo ($daim["level_name"]); ?></p>
-                    <p><?php echo ($daim["level_price"]); ?>以上</p>
-                </div>
+                <!--<div class="VIPItem2Box">-->
+                    <!--<img src="/Public/Zyly/images/zuans@2x.png" alt="">-->
+                    <!--<p><?php echo ($daim["level_name"]); ?></p>-->
+                    <!--<p><?php echo ($daim["level_price"]); ?>以上</p>-->
+                <!--</div>-->
             </div>
         </div>
         <div class="VIPItem3">
@@ -60,7 +60,6 @@
                         <p>免费会员</p>
                         <p><?php echo ($gold["level_name"]); ?></p>
                         <p><?php echo ($plat["level_name"]); ?></p>
-                        <p><?php echo ($daim["level_name"]); ?></p>
                     </div>
                     <div class="VIPItem3-cont-center">
                         <div>等级标识</div>
@@ -73,17 +72,52 @@
                         <div>
                             <img src="/Public/Zyly/images/6XING@2x.png" alt="">
                         </div>
-                        <div>
-                            <img src="/Public/Zyly/images/zuans@2x.png" alt="">
-                        </div>
+
                     </div>
                     <div class="VIPItem3-cont-bottom">
-                            <p>分佣周封顶</p>
-                            <p>无分佣</p>
-                            <p><?php echo ($gold["level_max_price"]); ?></p>
-                            <p><?php echo ($plat["level_max_price"]); ?></p>
-                            <p><?php echo ($daim["level_max_price"]); ?></p>
+                        <p>升级条件</p>
+                        <p>无分佣</p>
+                        <p>1盒</p>
+                        <p>10盒</p>
                     </div>
+                    <div class="VIPItem3-cont-bottom">
+                        <p>直推联创</p>
+                        <p>无分佣</p>
+                        <p>50%</p>
+                        <p>70%</p>
+                    </div>
+                    <div class="VIPItem3-cont-bottom">
+                        <p>直推合伙人</p>
+                        <p>无分佣</p>
+                        <p>10%</p>
+                        <p>50%</p>
+                    </div>
+                    <div class="VIPItem3-cont-bottom">
+                        <p>区间佣金</p>
+                        <p>无分佣</p>
+                        <p>无分佣</p>
+                        <p>10%</p>
+                    </div>
+                    <div class="VIPItem3-cont-bottom">
+                        <p>团队佣金</p>
+                        <p>无分佣</p>
+                        <p>无分佣</p>
+                        <p>10%</p>
+                    </div>
+                    <div class="VIPItem3-cont-bottom">
+                        <p>联创复购</p>
+                        <p>无分佣</p>
+                        <p>无分佣</p>
+                        <p>20%</p>
+                    </div>
+                    <div class="VIPItem3-cont-bottom">
+                        <p>合伙人复购</p>
+                        <p>无分佣</p>
+                        <p>无分佣</p>
+                        <p>10%</p>
+                    </div>
+
+
                 </div>
 
             </div>

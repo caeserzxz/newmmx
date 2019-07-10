@@ -50,7 +50,7 @@
             <th width="130">注册时间</th>
             <th width="100">会员等级</th>
             <th width="50">状态</th>
-            <th width="100">是否为代理</th>
+            <!--<th width="100">是否为代理</th>-->
             <th width="100">操作</th>
         </tr>
         </thead>
@@ -66,13 +66,13 @@
                 <td><?php echo ($v["addtime"]); ?></td>
                 <td><?php echo ($v["level_name"]); ?></td>
                 <td><?php if($v["del"] != 0): ?><label style="color:red;">已禁用</label><?php else: ?><label style="color:green;">正常</label><?php endif; ?></td>
-                <td><?php if($v["is_daili"] == 1): ?><label style="color:red;">否</label><?php else: ?><label style="color:green;">是</label><?php endif; ?></td>
+                <!--<td><?php if($v["is_daili"] == 1): ?><label style="color:red;">否</label><?php else: ?><label style="color:green;">是</label><?php endif; ?></td>-->
                 <td class="obj_1">
                     <!-- <a href="<?php echo U('User/add');?>?id=<?php echo ($v["id"]); ?>">修改</a> -->
                     <a onclick='del_id_urls(<?php echo ($v["id"]); ?>,<?php echo ($page); ?>)'><?php if($v["del"] != 0): ?><label style="color:green;">恢复</label><?php else: ?>禁用<?php endif; ?></a>
                     &nbsp&nbsp&nbsp&nbsp
                    <!-- <?php if($v["is_daili"] == 1): ?><a onclick='set_daili(<?php echo ($v["id"]); ?>,<?php echo ($page); ?>,1);'><label style="color:green;">设为代理</label></a><?php else: ?><a onclick='set_daili(<?php echo ($v["id"]); ?>,<?php echo ($page); ?>,2);'>取消代理</a><?php endif; ?> -->
-                   <a  style="color:green;" href="/index.php/Admin/User/daili_edit?id=<?php echo ($v["id"]); ?>">代理操作</a>
+                   <!--<a  style="color:green;" href="/index.php/Admin/User/daili_edit?id=<?php echo ($v["id"]); ?>">代理操作</a>-->
                    &nbsp&nbsp&nbsp&nbsp
                    <label style="color:green;" onclick='set_level(<?php echo ($v["id"]); ?>,<?php echo ($page); ?>);'>设置等级</label>
                    &nbsp&nbsp&nbsp&nbsp

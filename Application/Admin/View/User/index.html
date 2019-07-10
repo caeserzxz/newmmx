@@ -50,7 +50,7 @@
             <th width="130">注册时间</th>
             <th width="100">会员等级</th>
             <th width="50">状态</th>
-            <th width="100">是否为代理</th>
+            <!--<th width="100">是否为代理</th>-->
             <th width="100">操作</th>
         </tr>
         </thead>
@@ -67,13 +67,13 @@
                 <td>{$v.addtime}</td>
                 <td>{$v.level_name}</td>
                 <td><if condition="$v.del neq 0"><label style="color:red;">已禁用</label><else /><label style="color:green;">正常</label></if></td>
-                <td><if condition="$v.is_daili eq 1"><label style="color:red;">否</label><else /><label style="color:green;">是</label></if></td>
+                <!--<td><if condition="$v.is_daili eq 1"><label style="color:red;">否</label><else /><label style="color:green;">是</label></if></td>-->
                 <td class="obj_1">
                     <!-- <a href="{:U('User/add')}?id={$v.id}">修改</a> -->
                     <a onclick='del_id_urls({$v.id},{$page})'><if condition="$v.del neq 0"><label style="color:green;">恢复</label><else />禁用</if></a>
                     &nbsp&nbsp&nbsp&nbsp
                    <!-- <if condition="$v.is_daili eq 1"> <a onclick='set_daili({$v.id},{$page},1);'><label style="color:green;">设为代理</label></a><else /><a onclick='set_daili({$v.id},{$page},2);'>取消代理</a></if> -->
-                   <a  style="color:green;" href="__CONTROLLER__/daili_edit?id={$v.id}">代理操作</a>
+                   <!--<a  style="color:green;" href="__CONTROLLER__/daili_edit?id={$v.id}">代理操作</a>-->
                    &nbsp&nbsp&nbsp&nbsp
                    <label style="color:green;" onclick='set_level({$v.id},{$page});'>设置等级</label>
                    &nbsp&nbsp&nbsp&nbsp
