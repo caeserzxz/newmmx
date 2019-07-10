@@ -1,0 +1,510 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "PingFang SC";
+}
+ul li {
+  list-style: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+}
+.line {
+  height: .2rem;
+  background: #eee;
+}
+.load {
+  height: 1.46rem;
+  background: #eee;
+  margin-bottom: 1.1rem;
+}
+.load .span-c3 {
+  font-size: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.load .span-c3 span {
+  display: inline-block;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 50%;
+  margin-top: .3rem;
+}
+.load .span-c3 span:nth-child(1) {
+  background: #ffcc41;
+}
+.load .span-c3 span:nth-child(2) {
+  background: #fff;
+}
+.load p {
+  font-size: .24rem;
+  text-align: center;
+  color: #999;
+  padding-top: 0.2rem;
+}
+.span-c3 span:nth-child(1) {
+  animation: loader1 1s linear infinite;
+}
+.span-c3 span:nth-child(2) {
+  animation: loader2 1s linear infinite;
+}
+@keyframes loader1 {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(0.4rem);
+  }
+}
+@keyframes loader2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-0.4rem);
+  }
+}
+.index-warp .index-banner {
+  width: 7.5rem;
+  height: 2.8rem;
+}
+.index-warp .index-banner img {
+  width: 7.5rem;
+  height: 2.8rem;
+  display: block;
+}
+.index-warp .index-nav {
+  width: 100%;
+  display: flex;
+  margin-bottom: 0.24rem;
+}
+.index-warp .index-nav .index-nav-item {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.index-warp .index-nav .index-nav-item img {
+  width: .5rem;
+  height: .5rem;
+  margin: .2rem 0;
+}
+.index-warp .index-nav .index-nav-item span {
+  font-size: .28rem;
+  color: #666;
+}
+.index-warp .notice {
+  display: flex;
+  padding: 0 .2rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  height: .8rem;
+  border-top: .01rem solid #eeeeee;
+  border-bottom: .01rem solid #eeeeee;
+}
+.index-warp .notice .notice-left {
+  vertical-align: middle;
+}
+.index-warp .notice .notice-left img {
+  width: .37rem;
+  height: .26rem;
+  vertical-align: middle;
+}
+.index-warp .notice .notice-left p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.index-warp .notice .notice-right {
+  width: .9rem;
+  height: .4rem;
+  text-align: center;
+  box-sizing: border-box;
+  border: .01rem solid #29c2a3;
+  color: #29c2a3;
+  line-height: .4rem;
+}
+.index-warp  .popular-cont{
+  margin-bottom: 1rem;
+}
+
+.index-warp .index-popular .popular-tit {
+  height: .8rem;
+  border-bottom: .01rem solid #eee;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.index-warp .index-popular .popular-tit .popular-tit-left {
+  font-size: .28rem;
+  color: #333;
+}
+.index-warp .index-popular .popular-tit .popular-tit-right {
+  vertical-align: middle;
+}
+.index-warp .index-popular .popular-tit .popular-tit-right span {
+  vertical-align: middle;
+  font-size: .24rem;
+  color: #999;
+  padding-right: .1rem;
+}
+.index-warp .index-popular .popular-tit .popular-tit-right img {
+  vertical-align: middle;
+  width: .16rem;
+  height: .3rem;
+}
+.index-warp .index-popular .popular-cont .popular-item {
+  width: 7.5rem;
+  box-sizing: border-box;
+  padding: 0.2rem;
+  border-bottom: 0.01rem solid #eee;
+}
+.index-warp .index-popular .popular-cont .popular-item .item-left {
+  float: left;
+}
+.index-warp .index-popular .popular-cont .popular-item .item-left img {
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 0.04rem;
+  display: block;
+}
+.index-warp .index-popular .popular-cont .popular-item .item-right {
+  float: left;
+  width: 4.4rem;
+  box-sizing: border-box;
+  font-size: 0;
+  padding-left: 0.2rem;
+}
+.index-warp .index-popular .popular-cont .popular-item .item-right .item-right-tit {
+  color: #333;
+  font-size: .28rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-top: 0.1rem;
+  letter-spacing: 1px;
+  /*height: .8rem;*/
+}
+.index-warp .index-popular .popular-cont .popular-item .item-right .item-oldPrice {
+  height: .58rem;
+  margin: .2rem 0;
+}
+.index-warp .index-popular .popular-cont .popular-item .item-right .item-oldPrice p {
+  color: #999;
+  font-size: .22rem;
+}
+.index-warp .index-popular .popular-cont .popular-item .item-right .item-newPrice {
+  margin-top: .16rem;
+  color: #fd3d79;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.index-warp .index-popular .popular-cont .popular-item .item-right .item-newPrice .item-newPrice-left {
+  vertical-align: middle;
+}
+.index-warp .index-popular .popular-cont .popular-item .item-right .item-newPrice .item-newPrice-left img {
+  width: .25rem;
+  height: .24rem;
+  vertical-align: middle;
+}
+.index-warp .index-popular .popular-cont .popular-item .item-right .item-newPrice .item-newPrice-left span {
+  font-size: .28rem;
+  vertical-align: middle;
+}
+.index-warp .index-popular .popular-cont .popular-item .item-right .item-newPrice .item-newPrice-right {
+  font-size: .24rem;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #2ac1a3;
+}
+.index-warp .index-goodsBox {
+  font-size: 0;
+  margin-top: .2rem;
+}
+.index-warp .index-goodsBox .goodsBox-item {
+  width: 3.3rem;
+  display: inline-block;
+  margin-bottom: 0.2rem;
+  padding-left: .3rem;
+}
+.index-warp .index-goodsBox .goodsBox-item .item-imgBox {
+  width: 3.3rem;
+  height: 3.3rem;
+  position: relative;
+}
+.index-warp .index-goodsBox .goodsBox-item .item-imgBox img {
+  width: 3.3rem;
+  height: 3.3rem;
+  display: block;
+}
+.index-warp .index-goodsBox .goodsBox-item .item-tit {
+  margin-top: .15rem;
+}
+.index-warp .index-goodsBox .goodsBox-item .item-tit p {
+  font-size: .28rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-indent: .2rem;
+  color: #333;
+}
+.index-warp .index-goodsBox .goodsBox-item .item-sale {
+  font-size: .2rem;
+  color: #999;
+  width: 100%;
+  padding-top: 0.12rem;
+  margin-bottom: 0.1rem;
+}
+.index-warp .index-goodsBox .goodsBox-item .item-price {
+  padding-top: 0.04rem;
+  padding-bottom: .1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.01rem solid #eee;
+}
+.index-warp .index-goodsBox .goodsBox-item .item-price .item-price-left {
+  vertical-align: middle;
+}
+.index-warp .index-goodsBox .goodsBox-item .item-price .item-price-left img {
+  width: .25rem;
+  height: .24rem;
+  vertical-align: middle;
+}
+.index-warp .index-goodsBox .goodsBox-item .item-price .item-price-left span {
+  font-size: .28rem;
+  color: #ff343e;
+  vertical-align: middle;
+}
+.index-warp .index-goodsBox .goodsBox-item .item-price .item-price-right {
+  font-size: .24rem;
+  color: #2ac1a3;
+}
+.index-warp .index-goodsBox .goodsBox-item:nth-child(2n) {
+  margin-left: 0.3rem;
+  padding: 0;
+}
+.index-warp .index-tenBox .tenBox-tit {
+  height: .8rem;
+  border-bottom: .01rem solid #eee;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.index-warp .index-tenBox .tenBox-tit .tenBox-tit-left {
+  font-size: .28rem;
+  color: #333;
+}
+.index-warp .index-tenBox .tenBox-tit .tenBox-tit-right {
+  vertical-align: middle;
+}
+.index-warp .index-tenBox .tenBox-tit .tenBox-tit-right span {
+  vertical-align: middle;
+  font-size: .24rem;
+  color: #999;
+  padding-right: .1rem;
+}
+.index-warp .index-tenBox .tenBox-tit .tenBox-tit-right img {
+  vertical-align: middle;
+  width: .16rem;
+  height: .3rem;
+}
+.index-warp .index-tenBox .tenBox-goodsBox {
+  font-size: 0;
+  margin-top: .2rem;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item {
+  width: 3.3rem;
+  height: 5.34rem;
+  display: inline-block;
+  border-bottom: 0.01rem solid #eee;
+  margin-bottom: 0.2rem;
+  padding-left: .3rem;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item .item-imgBox {
+  width: 3.3rem;
+  height: 3.3rem;
+  position: relative;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item .item-imgBox img {
+  width: 3.3rem;
+  height: 3.3rem;
+  display: block;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item .item-imgBox p {
+  position: absolute;
+  bottom: 0;
+  height: 0.36rem;
+  line-height: 0.36rem;
+  width: 100%;
+  background: #fe3c76;
+  opacity: .7;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item .item-imgBox span {
+  font-size: 0.28rem;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item .item-imgBox .jd-icon {
+  position: absolute;
+  top: .1rem;
+  left: -0.1rem;
+  width: .94rem;
+  height: .41rem;
+  z-index: 10;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item .item-imgBox .jd-icon img {
+  width: .94rem;
+  height: .41rem;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item .item-tit p {
+  font-size: .28rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-indent: .2rem;
+  color: #333;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item .item-sale {
+  font-size: .2rem;
+  color: #999;
+  width: 100%;
+  padding-top: 0.12rem;
+  margin-bottom: 0.1rem;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item .item-sale del {
+  float: left;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item .item-sale span {
+  float: right;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item .item-price {
+  position: relative;
+  padding-top: 0.04rem;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item .item-price > span {
+  color: #fd3d79;
+  font-size: 0.22rem;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item .item-price i {
+  font-style: normal;
+  font-size: 0.36rem;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item .item-price p {
+  position: absolute;
+  font-size: .34rem;
+  color: #fd3d79;
+  width: 1.32rem;
+  height: 0.44rem;
+  line-height: 0.44rem;
+  text-align: center;
+  background: url("../images/quan@2x.png") no-repeat center;
+  background-size: 1.32rem 0.44rem;
+  top: 0.06rem;
+  right: 0.1rem;
+  letter-spacing: -0.001rem;
+}
+.index-warp .index-tenBox .tenBox-goodsBox .tenBox-goodsBox-item:nth-child(2n) {
+  margin-left: 0.3rem;
+  padding: 0;
+}
+.index-warp .advBox {
+  font-size: 0;
+  margin: .3rem;
+}
+.index-warp .advBox > div {
+  display: inline-block;
+}
+.index-warp .advBox > div img {
+  display: block;
+  width: 3.34rem;
+  height: 1.4rem;
+}
+.index-warp .advBox div:nth-child(2) {
+  margin-left: .22rem;
+}
+.index-warp .bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 7.5rem;
+  height: 1rem;
+  border-top: .01rem solid #eee;
+  border-bottom: .01rem solid #eee;
+  box-sizing: border-box;
+  z-index: 99;
+  background: #fff;
+}
+.index-warp .bottom .bottom-navItem {
+  width: 50%;
+  height: 1rem;
+  text-align: center;
+  font-size: 0;
+  float: left;
+}
+.index-warp .bottom .bottom-navItem img {
+  width: .42rem;
+  height: .42rem;
+  display: inline-block;
+  padding-top: .12rem;
+}
+.index-warp .bottom .bottom-navItem span {
+  font-size: .28rem;
+  color: #333;
+  display: block;
+}
+.index-warp .bottom .bottom-navItem-act span {
+  color: #ff3b74;
+}

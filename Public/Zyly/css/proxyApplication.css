@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "PingFang SC";
+}
+ul li {
+  list-style: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+}
+.line {
+  height: .2rem;
+  background: #eee;
+}
+.load {
+  height: 1.46rem;
+  background: #eee;
+  margin-bottom: 1.1rem;
+}
+.load .span-c3 {
+  font-size: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.load .span-c3 span {
+  display: inline-block;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 50%;
+  margin-top: .3rem;
+}
+.load .span-c3 span:nth-child(1) {
+  background: #ffcc41;
+}
+.load .span-c3 span:nth-child(2) {
+  background: #fff;
+}
+.load p {
+  font-size: .24rem;
+  text-align: center;
+  color: #999;
+  padding-top: 0.2rem;
+}
+.span-c3 span:nth-child(1) {
+  animation: loader1 1s linear infinite;
+}
+.span-c3 span:nth-child(2) {
+  animation: loader2 1s linear infinite;
+}
+@keyframes loader1 {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(0.4rem);
+  }
+}
+@keyframes loader2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-0.4rem);
+  }
+}
+body {
+  background: #eee;
+}
+.proxyApplication .sty {
+  width: 6.9rem;
+  height: .8rem;
+  margin: .3rem auto;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.proxyApplication .sty input {
+  font-size: .24rem;
+  color: #999;
+  width: 6.9rem;
+  height: .6rem;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  padding-left: .3rem;
+}
+.proxyApplication .area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+}
+.proxyApplication .area span {
+  font-size: .28rem;
+  color: #333;
+}
+.proxyApplication .area input {
+  font-size: .24rem;
+  color: #999;
+  width: 4rem;
+  height: .6rem;
+  border: none;
+  outline: none;
+}
+.proxyApplication .area img {
+  width: .16rem;
+  height: .3rem;
+}
+.proxyApplication .proxyInfo {
+  width: 6.9rem;
+  height: 2.8rem;
+  margin: 0 auto;
+}
+.proxyApplication .proxyInfo textarea {
+  font-size: .24rem;
+  width: 6.9rem;
+  height: 2.8rem;
+  border: none;
+  box-sizing: border-box;
+  padding: .2rem;
+  outline: none;
+}
+.proxyApplication button {
+  width: 6.9rem;
+  height: .8rem;
+  display: block;
+  margin: .8rem auto 0;
+  background: #1abd9b;
+  text-align: center;
+  line-height: .8rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: .06rem;
+}
+.address_select{
+  width: 6.9rem;
+  height: .8rem;
+  margin: .3rem auto;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: .24rem;
+  color: #999;
+}
+.address_select select{
+ text-align: center;
+}

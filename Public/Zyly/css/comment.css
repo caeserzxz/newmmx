@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "PingFang SC";
+}
+ul li {
+  list-style: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+}
+.line {
+  height: .2rem;
+  background: #eee;
+}
+.load {
+  height: 1.46rem;
+  background: #eee;
+  margin-bottom: 1.1rem;
+}
+.load .span-c3 {
+  font-size: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.load .span-c3 span {
+  display: inline-block;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 50%;
+  margin-top: .3rem;
+}
+.load .span-c3 span:nth-child(1) {
+  background: #ffcc41;
+}
+.load .span-c3 span:nth-child(2) {
+  background: #fff;
+}
+.load p {
+  font-size: .24rem;
+  text-align: center;
+  color: #999;
+  padding-top: 0.2rem;
+}
+.span-c3 span:nth-child(1) {
+  animation: loader1 1s linear infinite;
+}
+.span-c3 span:nth-child(2) {
+  animation: loader2 1s linear infinite;
+}
+@keyframes loader1 {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(0.4rem);
+  }
+}
+@keyframes loader2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-0.4rem);
+  }
+}
+body {
+  background: #eee;
+}
+.comment .comment-star {
+  width: 6.9rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+  background: #fff;
+  height: .8rem;
+  line-height: .8rem;
+  display: flex;
+  border-radius: .04rem;
+  margin-top: .3rem;
+}
+.comment .comment-star .starLeft {
+  color: #333;
+  font-size: .28rem;
+}
+.comment .comment-star .starRight {
+  color: #666;
+  font-size: .24rem;
+}
+.comment .comment-star #star1 {
+  display: flex;
+  align-items: center;
+  font-size: 0;
+  width: 2.8rem !important;
+  margin-left: .4rem;
+}
+.comment .comment-star #star1 img {
+  width: .4rem;
+  height: .4rem;
+  margin-right: .12rem;
+}
+.comment .comment-fontBox {
+  width: 6.9rem;
+  height: 2.8rem;
+  margin: .3rem auto;
+}
+.comment .comment-fontBox textarea {
+  width: 6.9rem;
+  height: 2.8rem;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  padding: .3rem;
+  line-height: .36rem;
+  letter-spacing: .01rem;
+}
+.comment .anonymousBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .28rem;
+  width: 6.9rem;
+  height: .8rem;
+  background: #fff;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+}
+.comment .upLoadImg {
+  background: #fff;
+  width: 6.9rem;
+  margin: .3rem auto;
+}
+.comment .upLoadImg .upLoadImg-tit {
+  width: 6.9rem;
+  height: .6rem;
+  font-size: .24rem;
+  color: #666;
+  line-height: .6rem;
+  box-sizing: border-box;
+}
+.comment .upLoadImg .upLoadImg-cont .upload-ul {
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.comment .upLoadImg .upLoadImg-cont .upload-ul li {
+  position: relative;
+  float: left;
+  display: inline-block;
+  width: 2.1rem;
+  height: 2.1rem;
+  margin: 0 .1rem .1rem;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  -moz-border-radius: .02rem;
+  -webkit-border-radius: .02rem;
+  border-radius: .02rem;
+  overflow: hidden;
+}
+.comment .upLoadImg .upLoadImg-cont .upload-pick {
+  background: url(../images/upload-bj.png) no-repeat;
+  background-size: 2.1rem 2.1rem;
+}
+.comment .upLoadImg .upLoadImg-cont .webuploader-pick {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+}
+.comment .upLoadImg .upLoadImg-cont .webuploader-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.comment .upLoadImg .upLoadImg-cont .webuploader-container label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.comment .upLoadImg .upLoadImg-cont .webuploader-element-invisible {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  clip: rect(0.01rem 0.01rem 0.01rem 0.01rem);
+  clip: rect(0.01rem, 0.01rem, 0.01rem, 0.01rem);
+}
+.comment .upLoadImg .upLoadImg-cont .viewThumb {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: .03rem;
+}
+.comment .upLoadImg .upLoadImg-cont .viewThumb img {
+  width: 100%;
+  height: 100%;
+}
+.comment .upLoadImg .upLoadImg-cont .diyBar {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/bgblack.png);
+  z-index: 3;
+}
+.comment .upLoadImg .upLoadImg-cont .diyProgress {
+  position: absolute;
+  left: 0;
+  top: 33px;
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  text-align: center;
+  color: #FFF;
+  background: rgba(10, 168, 241, 0.7);
+  z-index: 3;
+}
+.comment .upLoadImg .upLoadImg-cont .diyControl {
+  position: absolute;
+  display: none;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: .24rem;
+  line-height: .24rem;
+  font-size: .14rem;
+  background: url(../images/bgblack.png);
+  background-size: .01rem .01rem;
+  z-index: 3;
+}
+.comment .upLoadImg .upLoadImg-cont .viewThumb:hover .diyControl {
+  display: block;
+}
+.comment .upLoadImg .upLoadImg-cont .diyControl span {
+  display: inline-block;
+  padding: .065rem .13rem;
+  width: .12rem;
+  height: .11rem;
+}
+.comment .upLoadImg .upLoadImg-cont .diyControl span i {
+  display: block;
+  width: .12rem;
+  height: .11rem;
+  opacity: .7;
+}
+.comment .upLoadImg .upLoadImg-cont .diyControl span i:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.comment .upLoadImg .upLoadImg-cont .diyLeft {
+  margin-left: .03rem;
+}
+.comment .upLoadImg .upLoadImg-cont .diyLeft {
+  margin-right: .03rem;
+}
+.comment .upLoadImg .upLoadImg-cont .diyLeft i {
+  margin-left: .03rem;
+  background: url(../images/upload-icon1.png) no-repeat 0 0;
+  background-size: contain;
+}
+.comment .upLoadImg .upLoadImg-cont .diyCancel i {
+  background: url(../images/upload-icon1.png) no-repeat 0 -0.11rem;
+  background-size: contain;
+}
+.comment .upLoadImg .upLoadImg-cont .diyRight i {
+  margin-right: .03rem;
+  background: url(../images/upload-icon1.png) no-repeat 0 -0.22rem;
+  background-size: contain;
+}
+.comment .upLoadImg .upLoadImg-cont .goods-edit .upload-tip {
+  font: 0.012rem/0.23rem "Microsoft YaHei";
+  color: #a3a3a3;
+  vertical-align: top;
+}
+.comment .submitBtn {
+  height: 1.2rem;
+  text-align: center;
+}
+.comment .submitBtn span {
+  width: 6rem;
+  display: inline-block;
+  margin-top: .2rem;
+  height: .8rem;
+  line-height: .8rem;
+  text-align: center;
+  font-size: .32rem;
+  color: #fff;
+  background-color: #2ac1a3;
+  border-radius: .04rem;
+}

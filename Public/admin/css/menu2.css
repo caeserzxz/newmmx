@@ -1,0 +1,86 @@
+#table {
+  width: 1200px;
+  margin: 0px auto 0;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+#table td,
+#table th {
+  padding: 0.75em 1.5em;
+}
+#table thead {
+  color: #fff;
+  background-color: #f83f69;
+}
+#table thead th {
+  text-align: left;
+}
+#table tbody tr {
+  border-bottom: 2px dashed #000;
+  cursor: default;
+  transition: all 0.125s ease-in-out;
+}
+#table td img {
+  width: 20px;
+  height: 20px;
+  padding-right: 8px;
+}
+input {
+  width: 16px;
+  height: 16px;
+}
+#selectAll {
+  margin-left: -4px;
+}
+.checkbox {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.s-menu .container .menu-title {
+  box-sizing: border-box;
+  width: 100%;
+  height: 76px;
+  font-size: 22px;
+  color: #333;
+  line-height: 76px;
+  border-bottom: 1px solid #cccccc;
+}
+.s-menu .container .tab-tip {
+  border: 1px solid #ccc;
+  width: 800px;
+  text-align: center;
+  margin: 30px auto;
+}
+.s-menu .container .tab-tip p {
+  color: #333;
+  font-size: 14px;
+  height: 26px;
+  line-height: 26px;
+}
+.s-menu .container .tab-tip > button {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #ccc;
+  background: #f83f69;
+  outline: none;
+  cursor: pointer;
+  margin: 20px 0;
+}
+.add_menus{
+    width: 90px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin-left: 1000px;
+    border: 1px solid #ccc;
+    background: #0a6999;
+    outline: none;
+    cursor: pointer;
+}

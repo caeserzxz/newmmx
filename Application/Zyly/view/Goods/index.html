@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>主页</title>
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/media.css">
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/swiper-3.4.0.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/index.css">
+    <script src="__PUBLIC__/Zyly/js/jquery-2.2.2.min.js"></script>
+</head>
+
+<body>
+    <div class="index-warp">
+        <!-- 轮播 -->
+        <div class="index-banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <volist name="banner" id="vol">
+                        <div class="swiper-slide">
+                            <img src="__DATA__/{$vol.photo}" alt="">
+                        </div>
+                    </volist>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    
+        <!-- 通知 -->
+        <!-- <div class="notice">
+            <div class="notice-left">
+                <img src="__PUBLIC__/Zyly/images/laba@2x.png" alt="">
+                <volist name="notice" id="vol">
+                    <p>{$vol.title}</p>
+                </volist>
+               
+            </div>
+            <div class="notice-right">
+                详情
+            </div>
+        </div> -->
+
+
+        <div class="line"></div>
+
+        <!-- 人气推荐 -->
+        <div class="index-popular">
+            <!-- <div class="popular-tit">
+                <div class="popular-tit-left">
+                    商品展示(横幅)
+                </div>
+                <div class="popular-tit-right">
+                    <span>更多推荐</span>
+                    <img src="__PUBLIC__/Zyly/images/jiantou@2x.png" alt="">
+                </div>
+            </div> -->
+            <div class="popular-cont">
+                <volist  name="goods" id="vol" empty="没有数据">
+                <div class="popular-item clearfix" onclick="detail({$vol.id})">
+                    <div class="item-left">
+                        <img src="__DATA__/{$vol.photo_x}" alt="">
+                    </div>
+                    <div class="item-right">
+                        <p class="item-right-tit">
+                           {$vol.name}
+                        </p>
+
+                        <div class="item-oldPrice">
+                            <p>{$vol.intro}</p>
+                        </div>
+                      `   
+                        <div class="item-newPrice ">
+                            <if  condition="$shop_type eq 5">
+                                <div class="item-newPrice-left">
+                                    <span>{$vol.price}积分</span>
+                                </div>
+                            <else />
+                                <div class="item-newPrice-left">
+                                    <img src="__PUBLIC__/Zyly/images/lvyou@2x.png" alt="">
+                                    <span>￥{$vol.price}</span>
+                                </div>
+                            </if>
+                            <div class="item-newPrice-right">
+
+                                <span>销量:</span>
+                                <span>{$vol.shiyong}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </volist>
+            </div>
+        </div>
+
+        <!-- <div class="line"></div> -->
+        <!-- 正在加载 -->
+        <!-- <div class="load">
+            <div class="span-c3">
+                <span></span>
+                <span></span>
+            </div>
+            <p>正在加载更多...</p>
+        </div> -->
+
+
+        <!-- 底部导航 -->
+        <include file="$nav" />
+        <!-- <div class="bottom clearfix">
+            <div class="bottom-navItem bottom-navItem-act">
+                <img src="__PUBLIC__/Zyly/images/huiyuan@2x.png" alt="">
+                <span>首页</span>
+            </div>
+            <div class="bottom-navItem">
+                <img src="__PUBLIC__/Zyly/images/huiyuan@2x.png" alt="">
+                <span>分类</span>
+            </div>
+            
+            <div class="bottom-navItem">
+                <img src="__PUBLIC__/Zyly/images/huiyuan@2x.png" alt="">
+                <span>专题</span>
+            </div>
+            <div class="bottom-navItem">
+                <img src="__PUBLIC__/Zyly/images/huiyuan@2x.png" alt="">
+                <span>个人中心</span>
+            </div>
+        </div> -->
+    </div>
+</body>
+
+<script src="__PUBLIC__/Zyly/js/swiper-3.4.2.jquery.min.js"></script>
+<script>
+    var appId = '{$data["signPackage"]["appId"]}';
+    var timestamp = '{$data["signPackage"]["timestamp"]}';
+    var nonceStr = '{$data["signPackage"]["nonceStr"]}';
+    var signature = '{$data["signPackage"]["signature"]}';
+    var shareTitle = '{$data["shareTitle"]}';
+    var shareName = '{$data["shareName"]}';
+    var shareUrl = '{$data["shareUrl"]}';
+    var shareImg = '{$data["shareImg"]}';
+</script>
+<script type="text/javascript" src="__PUBLIC__/Zyly/js/share1.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+    var  shop_type = {$shop_type};
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay: 1000,
+        speed: 300,
+        loop: true,
+        // 如果需要分页器
+        pagination: '.swiper-pagination',
+        autoplayDisableOnInteraction : false,
+
+    })
+    function detail(id){
+        location.href='{:U("Goods/detail")}?goods_id='+id+'&shop_type='+shop_type;
+    }
+    $('.imgurl').click(function () {
+        var imgUrl = $(this).attr("data-imgUrl");
+        if (imgUrl)
+        {
+            window.location.href = imgUrl;
+        }
+        else
+        {
+            
+        }
+    });
+</script>
+
+</html>

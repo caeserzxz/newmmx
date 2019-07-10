@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>推荐奖励</title>
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/media.css">
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/recommendReward.css">
+    <script src="__PUBLIC__/Zyly/js/jquery-2.2.2.min.js"></script>
+    <script src="__PUBLIC__/Zyly/js/layer-v3.1.1/layer/layer.js"></script>
+    <script>
+        var appId = '{$data["signPackage"]["appId"]}';
+        var timestamp = '{$data["signPackage"]["timestamp"]}';
+        var nonceStr = '{$data["signPackage"]["nonceStr"]}';
+        var signature = '{$data["signPackage"]["signature"]}';
+        var shareTitle = '{$data["shareTitle"]}';
+        var shareName = '{$data["shareName"]}';
+        var shareUrl = '{$data["shareUrl"]}';
+        var shareImg = '{$data["shareImg"]}';
+    </script>
+    <script type="text/javascript" src="__PUBLIC__/Zyly/js/share1.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</head>
+
+<body>
+    <div class="bigBox">
+        <div class="recommendTop">
+            <i onclick="guize();"></i>
+            <img src="__PUBLIC__/Zyly/images/yaoqing@2x.png" alt="">
+            <p>推荐好友</p>
+            <p>获取好友推荐的订单分成</p>
+            <span onclick="share();">立即邀请</span>
+        </div>
+        <div class="line"></div>
+        <div class="recommendSum">
+            <div class="Sumitem" onclick="rewardDetail();">
+                <img src="__PUBLIC__/Zyly/images/dyorn@2x.png" alt="">
+                <div class="itemDir">
+                    <p>成功推荐</p> 
+                    <p><span>{$users_num}</span>人</p>
+                </div>
+            </div>
+            <div class="Sumitem" onclick="rewardDetail();">
+                <img src="__PUBLIC__/Zyly/images/qiandai@2x.png" alt="">
+                <div class="itemDir">
+                    <p>累计奖金</p>
+                    <p><span>{$users.total}</span>元</p>
+                </div>
+            </div>
+            <div onclick="settlement({$users.can_withdraw},'{$users.phone}',{$banks});" class="Sumitem">
+                <img src="__PUBLIC__/Zyly/images/qian@2x.png" alt="">
+                <div class="itemDir showBox">
+                    <p>可结算</p>
+                    <p><span>{$users.can_withdraw}</span>元</p>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="recommendBot">
+            <div class="shareTit">
+                <span>分享排行榜</span>
+            </div>
+            <div class="shareBox">
+            <volist name="users_lower" id="vol" key="k">
+                <div class="shareItem">
+                    <div class="shareItem-left">
+                        <i>{$k}</i>
+                        <img src="{$vol.photo}" alt="">
+                        <span>TOP{$k}</span>
+                    </div>
+                    <div class="shareItem-right">
+                        <!-- ￥ {$vol.total} -->
+                        {$vol.fans}个粉丝
+                    </div>
+                </div>
+            </volist>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function share(){
+        // layer.msg('点击右上角分享',{time:1500});
+        location.href='{:U("Goods/share")}';
+    }
+
+    function rewardDetail(){
+        location.href='{:U("Person/rewardDetail")}';
+    }
+
+    function settlement(money,phone,banks){
+
+        // if(phone=='rhujhnfjhfnjffghgj'||banks==2){
+        //     layer.msg('请先完善个人资料', {icon: 1},function(){
+        //         location.href='{:U("Person/personalInfo")}';
+        //     });
+        // }else{
+        //     layer.confirm('是否结算', {
+        //     btn: ['去结算'] //按钮
+        //     }, function(){
+        //         $.ajax({
+        //             'url':'__CONTROLLER__/withdraw',
+        //             'type':'post',
+        //             'data':{'money':money},
+        //             'dataType':'json',
+        //             'success':function(data){
+        //                 // alert(data);
+        //                 // return false;
+        //                 console.log(data);
+        //                 if(data.status == 1){
+        //                     layer.msg(data.msg, {icon: 1},function(){
+        //                         location.reload();
+        //                     });
+        //                 }else{
+        //                     layer.msg(data.msg, {icon: 1});
+        //                 }
+        //
+        //             }
+        //         });
+        //         // layer.msg('结算成功', {icon: 1});
+        //     });
+        // }
+        location.href='{:U("Person/wallet")}';
+      
+    }
+    function  guize(){
+        location.href='{:U("Person/tuijianProblem")}';
+    }
+</script>
+</html>

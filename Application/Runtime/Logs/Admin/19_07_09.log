@@ -1,0 +1,1390 @@
+[ 2019-07-09T00:44:45+08:00 ] 127.0.0.1 /admin
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+
+[ 2019-07-09T00:44:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: key D:\www\newmmx\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2019-07-09T00:44:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+ERR: 非法操作:lib
+
+[ 2019-07-09T00:44:47+08:00 ] 127.0.0.1 /index.php/Admin/Login/static/h-ui/js/H-ui.min.js
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+ERR: 非法操作:static
+
+[ 2019-07-09T00:44:48+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html?key=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `lr_adminuser` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `lr_adminuser` WHERE ( name='admin' AND del<1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: shop_id D:\www\newmmx\Application\Admin\Controller\LoginController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2019-07-09T00:44:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.0077s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2019-07-09T00:44:49+08:00 ] 127.0.0.1 /index.php/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2019-07-09T00:44:51+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002314s ]
+NOTIC: [8] Undefined index: id D:\www\newmmx\Application\Admin\Controller\ProductController.class.php 第 14 行.
+NOTIC: [8] Undefined index: shop_id D:\www\newmmx\Application\Admin\Controller\ProductController.class.php 第 15 行.
+NOTIC: [8] Undefined index: type D:\www\newmmx\Application\Admin\Controller\ProductController.class.php 第 18 行.
+NOTIC: [8] Undefined index: tuijian D:\www\newmmx\Application\Admin\Controller\ProductController.class.php 第 19 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Admin\Controller\ProductController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product` WHERE ( 1=1 AND pro_type=1 AND del<1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: page D:\www\newmmx\Application\Admin\Controller\ProductController.class.php 第 32 行.
+SQL: SELECT * FROM `lr_product` WHERE ( 1=1 AND pro_type=1 AND del<1 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lr_category` [ RunTime:0.0075s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lr_brand` [ RunTime:0.0079s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `lr_category` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `lr_brand` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2019-07-09T00:44:54+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html?id=299&page=0&name=&shop_id=0&tuijian=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: type D:\www\newmmx\Application\Admin\Controller\ProductController.class.php 第 70 行.
+NOTIC: [8] Undefined index: submit D:\www\newmmx\Application\Admin\Controller\ProductController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `lr_category` [ RunTime:0.0138s ]
+SQL: SELECT `id`,`name` FROM `lr_category` WHERE ( tid=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `lr_product` WHERE ( id=299 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `lr_shangchang` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `lr_shangchang` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tid` FROM `lr_category` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lr_level` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `lr_level`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lr_brand` [ RunTime:0.0069s ]
+SQL: SELECT `id`,`name` FROM `lr_brand` WHERE ( 1=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lr_shop_type` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `lr_shop_type`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: shop_id D:\www\newmmx\Application\Admin\Controller\ProductController.class.php 第 269 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: img D:\www\newmmx\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 33 行.
+NOTIC: [8] Undefined variable: img D:\www\newmmx\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 33 行.
+NOTIC: [8] Undefined variable: img D:\www\newmmx\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 33 行.
+NOTIC: [2] Division by zero D:\www\newmmx\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2019-07-09T23:50:45+08:00 ] 127.0.0.1 /admin
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+
+[ 2019-07-09T23:50:47+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: key D:\www\newmmx\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2019-07-09T23:50:47+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+ERR: 非法操作:lib
+
+[ 2019-07-09T23:50:47+08:00 ] 127.0.0.1 /index.php/Admin/Login/static/h-ui/js/H-ui.min.js
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+ERR: 非法操作:static
+
+[ 2019-07-09T23:50:48+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html?key=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `lr_adminuser` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `lr_adminuser` WHERE ( name='admin' AND del<1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: shop_id D:\www\newmmx\Application\Admin\Controller\LoginController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2019-07-09T23:50:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.0215s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2019-07-09T23:50:49+08:00 ] 127.0.0.1 /index.php/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2019-07-09T23:51:11+08:00 ] 127.0.0.1 /index.php/Admin/Order/withdraw_list.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_withdraw` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 365 行.
+NOTIC: [8] Undefined variable: where D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 372 行.
+SQL: SELECT t1.*,t2.uname,t2.photo,t2.phone,t2.real_name,t2.bank_name,t2.banks FROM lr_withdraw t1 left join lr_user t2 on t1.uid = t2.id  ORDER BY t1.create_time desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2019-07-09T23:51:24+08:00 ] 127.0.0.1 /index.php/Admin/Order/carry
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `lr_withdraw` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `lr_withdraw` SET `status`='4',`save_time`='2019-07-09 23:51:24' WHERE `id` = 20 [ RunTime:0.0002s ]
+
+[ 2019-07-09T23:51:25+08:00 ] 127.0.0.1 /index.php/Admin/Order/withdraw_list
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_withdraw` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 365 行.
+NOTIC: [8] Undefined variable: where D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 372 行.
+SQL: SELECT t1.*,t2.uname,t2.photo,t2.phone,t2.real_name,t2.bank_name,t2.banks FROM lr_withdraw t1 left join lr_user t2 on t1.uid = t2.id  ORDER BY t1.create_time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2019-07-09T23:51:29+08:00 ] 127.0.0.1 /index.php/Admin/Order/carry
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `lr_withdraw` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `lr_withdraw` SET `status`='2',`save_time`='2019-07-09 23:51:29' WHERE `id` = 20 [ RunTime:0.0002s ]
+
+[ 2019-07-09T23:51:30+08:00 ] 127.0.0.1 /index.php/Admin/Order/withdraw_list
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_withdraw` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 365 行.
+NOTIC: [8] Undefined variable: where D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 372 行.
+SQL: SELECT t1.*,t2.uname,t2.photo,t2.phone,t2.real_name,t2.bank_name,t2.banks FROM lr_withdraw t1 left join lr_user t2 on t1.uid = t2.id  ORDER BY t1.create_time desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2019-07-09T23:54:44+08:00 ] 127.0.0.1 /index.php/Admin/Order/withdraw_list.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0156s ]
+
+[ 2019-07-09T23:54:45+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined variable: key D:\www\newmmx\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2019-07-09T23:54:45+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+ERR: 非法操作:lib
+
+[ 2019-07-09T23:54:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/static/h-ui/js/H-ui.min.js
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+ERR: 非法操作:static
+
+[ 2019-07-09T23:54:47+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html?key=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `lr_adminuser` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `lr_adminuser` WHERE ( name='admin' AND del<1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: shop_id D:\www\newmmx\Application\Admin\Controller\LoginController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2019-07-09T23:54:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.0168s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2019-07-09T23:54:48+08:00 ] 127.0.0.1 /index.php/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2019-07-09T23:54:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.0090s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2019-07-09T23:54:50+08:00 ] 127.0.0.1 /index.php/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2019-07-09T23:54:52+08:00 ] 127.0.0.1 /index.php/Admin/Order/withdraw_list.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_withdraw` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 365 行.
+NOTIC: [8] Undefined variable: where D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 372 行.
+SQL: SELECT t1.*,t2.uname,t2.photo,t2.phone,t2.real_name,t2.bank_name,t2.banks FROM lr_withdraw t1 left join lr_user t2 on t1.uid = t2.id  ORDER BY t1.create_time desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2019-07-09T23:54:56+08:00 ] 127.0.0.1 /index.php/Admin/Order/carry
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0176s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `lr_withdraw` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `lr_withdraw` SET `status`='4',`save_time`='2019-07-09 23:54:56' WHERE `id` = 21 [ RunTime:0.0002s ]
+
+[ 2019-07-09T23:54:58+08:00 ] 127.0.0.1 /index.php/Admin/Order/withdraw_list
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0279s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_withdraw` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 365 行.
+NOTIC: [8] Undefined variable: where D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 372 行.
+SQL: SELECT t1.*,t2.uname,t2.photo,t2.phone,t2.real_name,t2.bank_name,t2.banks FROM lr_withdraw t1 left join lr_user t2 on t1.uid = t2.id  ORDER BY t1.create_time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2019-07-09T23:55:04+08:00 ] 127.0.0.1 /index.php/Admin/Order/carry
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0202s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `lr_withdraw` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `lr_withdraw` SET `status`='2',`save_time`='2019-07-09 23:55:04' WHERE `id` = 21 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0101s ]
+SQL: SELECT `withdraw_old` FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `lr_user` SET `can_withdraw`='120' WHERE `id` = 1 [ RunTime:0.0003s ]
+
+[ 2019-07-09T23:55:06+08:00 ] 127.0.0.1 /index.php/Admin/Order/withdraw_list
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_withdraw` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 365 行.
+NOTIC: [8] Undefined variable: where D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 372 行.
+SQL: SELECT t1.*,t2.uname,t2.photo,t2.phone,t2.real_name,t2.bank_name,t2.banks FROM lr_withdraw t1 left join lr_user t2 on t1.uid = t2.id  ORDER BY t1.create_time desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2019-07-09T23:58:10+08:00 ] 127.0.0.1 /index.php/Admin/Order/withdraw_list.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0076s ]
+
+[ 2019-07-09T23:58:12+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: key D:\www\newmmx\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2019-07-09T23:58:12+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+ERR: 非法操作:lib
+
+[ 2019-07-09T23:58:12+08:00 ] 127.0.0.1 /index.php/Admin/Login/static/h-ui/js/H-ui.min.js
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+ERR: 非法操作:static
+
+[ 2019-07-09T23:58:13+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html?key=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `lr_adminuser` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `lr_adminuser` WHERE ( name='admin' AND del<1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: shop_id D:\www\newmmx\Application\Admin\Controller\LoginController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2019-07-09T23:58:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.0076s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2019-07-09T23:58:14+08:00 ] 127.0.0.1 /index.php/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2019-07-09T23:58:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.0078s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2019-07-09T23:58:15+08:00 ] 127.0.0.1 /index.php/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2019-07-09T23:58:18+08:00 ] 127.0.0.1 /index.php/Admin/Order/withdraw_list.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_withdraw` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 365 行.
+NOTIC: [8] Undefined variable: where D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 372 行.
+SQL: SELECT t1.*,t2.uname,t2.photo,t2.phone,t2.real_name,t2.bank_name,t2.banks FROM lr_withdraw t1 left join lr_user t2 on t1.uid = t2.id  ORDER BY t1.create_time desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2019-07-09T23:58:20+08:00 ] 127.0.0.1 /index.php/Admin/Order/carry
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `lr_withdraw` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `lr_withdraw` SET `status`='5',`save_time`='2019-07-09 23:58:20' WHERE `id` = 22 [ RunTime:0.0002s ]
+
+[ 2019-07-09T23:58:22+08:00 ] 127.0.0.1 /index.php/Admin/Order/withdraw_list
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_withdraw` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 365 行.
+NOTIC: [8] Undefined variable: where D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 372 行.
+SQL: SELECT t1.*,t2.uname,t2.photo,t2.phone,t2.real_name,t2.bank_name,t2.banks FROM lr_withdraw t1 left join lr_user t2 on t1.uid = t2.id  ORDER BY t1.create_time desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2019-07-09T23:58:28+08:00 ] 127.0.0.1 /index.php/Admin/Order/carry
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `lr_withdraw` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `lr_withdraw` SET `status`='3',`save_time`='2019-07-09 23:58:27' WHERE `id` = 22 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0082s ]
+SQL: SELECT `can_withdraw` FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `lr_user` SET `can_withdraw`='1138.6' WHERE `id` = 1 [ RunTime:0.0002s ]
+
+[ 2019-07-09T23:58:29+08:00 ] 127.0.0.1 /index.php/Admin/Order/withdraw_list
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_withdraw` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 365 行.
+NOTIC: [8] Undefined variable: where D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 372 行.
+SQL: SELECT t1.*,t2.uname,t2.photo,t2.phone,t2.real_name,t2.bank_name,t2.banks FROM lr_withdraw t1 left join lr_user t2 on t1.uid = t2.id  ORDER BY t1.create_time desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2019-07-09T23:59:26+08:00 ] 127.0.0.1 /index.php/Admin/Order/withdraw_list.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0075s ]
+
+[ 2019-07-09T23:59:28+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined variable: key D:\www\newmmx\Application\Runtime\Cache\Admin\32ec6c906c117a7c2bf504769276d87a.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2019-07-09T23:59:28+08:00 ] 127.0.0.1 /index.php/Admin/Login/lib/jquery/1.9.1/jquery.min.js
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+ERR: 非法操作:lib
+
+[ 2019-07-09T23:59:29+08:00 ] 127.0.0.1 /index.php/Admin/Login/static/h-ui/js/H-ui.min.js
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+ERR: 非法操作:static
+
+[ 2019-07-09T23:59:29+08:00 ] 127.0.0.1 /index.php/Admin/Login/index.html?key=
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `lr_adminuser` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `lr_adminuser` WHERE ( name='admin' AND del<1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `lr_program` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `lr_program` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: shop_id D:\www\newmmx\Application\Admin\Controller\LoginController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2019-07-09T23:59:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.0072s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2019-07-09T23:59:31+08:00 ] 127.0.0.1 /index.php/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2019-07-09T23:59:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `lr_web` [ RunTime:0.0071s ]
+SQL: SELECT `concent` FROM `lr_web` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2019-07-09T23:59:32+08:00 ] 127.0.0.1 /index.php/Admin/Page/adminindex.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2019-07-09T23:59:34+08:00 ] 127.0.0.1 /index.php/Admin/Order/withdraw_list.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_withdraw` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 365 行.
+NOTIC: [8] Undefined variable: where D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 372 行.
+SQL: SELECT t1.*,t2.uname,t2.photo,t2.phone,t2.real_name,t2.bank_name,t2.banks FROM lr_withdraw t1 left join lr_user t2 on t1.uid = t2.id  ORDER BY t1.create_time desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2019-07-09T23:59:40+08:00 ] 127.0.0.1 /index.php/Admin/Order/carry
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `lr_withdraw` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `lr_withdraw` SET `status`='2',`save_time`='2019-07-09 23:59:40' WHERE `id` = 23 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0074s ]
+SQL: SELECT `withdraw_old` FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `lr_user` SET `can_withdraw`='50' WHERE `id` = 1 [ RunTime:0.0002s ]
+
+[ 2019-07-09T23:59:42+08:00 ] 127.0.0.1 /index.php/Admin/Order/withdraw_list
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' D:\www\newmmx\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+NOTIC: [2] Declaration of Admin\Controller\OrderController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `lr_order` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `lr_order_product` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `lr_withdraw` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_withdraw` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 365 行.
+NOTIC: [8] Undefined variable: where D:\www\newmmx\Application\Admin\Controller\OrderController.class.php 第 372 行.
+SQL: SELECT t1.*,t2.uname,t2.photo,t2.phone,t2.real_name,t2.bank_name,t2.banks FROM lr_withdraw t1 left join lr_user t2 on t1.uid = t2.id  ORDER BY t1.create_time desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+NOTIC: [8] Undefined index: name D:\www\newmmx\Application\Runtime\Cache\Admin\301c2b9f6491dc53f7db959a81fc1270.php 第 58 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/media.css">
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/personal.css">
+    <script src="__PUBLIC__/Zyly/js/jquery-2.2.2.min.js"></script>
+    <script>
+        var appId = '{$data["signPackage"]["appId"]}';
+        var timestamp = '{$data["signPackage"]["timestamp"]}';
+        var nonceStr = '{$data["signPackage"]["nonceStr"]}';
+        var signature = '{$data["signPackage"]["signature"]}';
+        var shareTitle = '{$data["shareTitle"]}';
+        var shareName = '{$data["shareName"]}';
+        var shareUrl = '{$data["shareUrl"]}';
+        var shareImg = '{$data["shareImg"]}';
+    </script>
+    <script type="text/javascript" src="__PUBLIC__/Zyly/js/share1.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</head>
+
+<body>
+    <div class="personal">
+        <div class="userInfo" onclick="info();">
+            <div class="userInfo-left">
+                <div class="userInfo-left-img">
+                    <img src="{$userInfo.photo}" alt="">
+                </div>
+                <div class="userInfo-left-name">
+                    <p>{$userInfo.uname}</p>
+                    <if condition="$userInfo.level_id eq 0" >
+                        <span>普通用户</span>
+                    <elseif condition="$userInfo.level_id eq 1" />
+                        <span>联创会员</span>
+                    <elseif condition="$userInfo.level_id eq 2" />
+                        <span>合伙人</span>
+                    </if>
+                    
+                </div>
+            </div>
+            <div class="userInfo-right" onclick="info();">
+            <span>完善会员资料</span>
+                <img src="__PUBLIC__/Zyly/images/jiantou@2x.png" alt="">
+            </div>
+        </div>
+        <div class="jfBox">
+            <div onclick="rewardDetail();" class="jf-item">
+                <p>今日收入</p>
+                <span>{$money.today_order_money}</span>
+            </div>
+            <div onclick="rewardDetail();" class="jf-item">
+                <p>今日订单</p>
+                <span>{$money.today_order_num}</span>
+            </div>
+            <div class="jf-item" onclick="wallet();">
+                <p>可结算</p>
+                <span>{$userInfo.can_withdraw}</span>
+            </div>
+            <!--<div class="jf-item"  onclick="jifen({$userInfo.id})">-->
+                <!--<p>积分</p>-->
+                <!--<span>{$userInfo.do_score}</span>-->
+            <!--</div>-->
+        </div>
+        <div class="line"></div>
+        
+        <div class="servBox">
+            <div class="serv-item" onclick="select_address(1)">
+                <img src="__PUBLIC__/Zyly/images/wodedindan.png" alt="">
+                <p>我的订单</p>
+            </div>
+            <div class="serv-item" onclick="select_address(10)">
+                <img src="__PUBLIC__/Zyly/images/daifuk@2x.png" alt="">
+                <p>未付款</p>
+            </div>
+            <div class="serv-item" onclick="select_address(20)">
+                <img src="__PUBLIC__/Zyly/images/daishouh@2x.png" alt="">
+                <p>待收货</p>
+            </div>
+            <div class="serv-item" onclick="select_address(30)">
+                <img src="__PUBLIC__/Zyly/images/daipingj@2x.png" alt="">
+                <p>已完成</p>
+            </div>
+            <div id="kefu" class="serv-item" onclick="callphone();">
+                <img src="__PUBLIC__/Zyly/images/kefu@2x.png" alt="">
+                <p>售后服务</p>
+            </div>
+        </div>
+        <div class="line"></div>
+
+        <div class="selectBox">
+            <a href="{:U('Vip/memberCenter')}">
+                <div class="selectBox-item">
+                    <div class="selectBox-left">
+                        <img src="__PUBLIC__/Zyly/images/zan@2x.png" alt="">
+                        <span>会员中心</span>
+                    </div>
+                
+                    <div class="selectBox-right">
+                        <img src="__PUBLIC__/Zyly/images/jiantou@2x1.png" alt="">
+                    </div>
+                </div>
+            </a>
+
+            <div class="selectBox-item" onclick="my_fance({$userInfo.id})">
+                <div class="selectBox-left">
+                    <img src="__PUBLIC__/Zyly/images/fensi@2x.png" alt="">
+                    <span>我的粉丝</span>
+                </div>
+                <div class="selectBox-right">
+                        <span>{$fance_num}</span>
+
+                    <img src="__PUBLIC__/Zyly/images/jiantou@2x1.png" alt="">
+                </div>
+            </div>
+            <a href="{:U('Person/my_recommend')}?uid={$userInfo.id}">
+                <div class="selectBox-item">
+                    <div class="selectBox-left">
+                        <img src="__PUBLIC__/Zyly/images/dingw@2x.png" alt="">
+                        <span>我的推荐</span>
+                    </div>
+                    <div class="selectBox-right">
+                        <img src="__PUBLIC__/Zyly/images/jiantou@2x1.png" alt="">
+                    </div>
+                </div>
+            </a>
+            <!-- <div class="selectBox-item">
+                <div class="selectBox-left">
+                    <img src="__PUBLIC__/Zyly/images/pingjia@2x.png" alt="">
+                    <span>我的评价</span>
+                </div>
+                <div class="selectBox-right">
+                    <span>10</span>
+                    <img src="__PUBLIC__/Zyly/images/jiantou@2x1.png" alt="">
+                </div>
+            </div> -->
+            <a href="{:U('Address/address_list')}?uid={$userInfo.id}">
+                <div class="selectBox-item">
+                    <div class="selectBox-left">
+                        <img src="__PUBLIC__/Zyly/images/dingw@2x.png" alt="">
+                        <span>地址管理</span>
+                    </div>
+                    <div class="selectBox-right">
+                        <img src="__PUBLIC__/Zyly/images/jiantou@2x1.png" alt="">
+                    </div>
+                </div>
+            </a>
+
+            <div onclick="wallet();" class="selectBox-item">
+                    <div class="selectBox-left">
+                        <img src="__PUBLIC__/Zyly/images/dingw@2x.png" alt="">
+                        <span>结算中心</span>
+                    </div>
+                    <div  class="selectBox-right">
+                        <img src="__PUBLIC__/Zyly/images/jiantou@2x1.png" alt="">
+                    </div>
+            </div>
+
+             <!--<div onclick="service();" class="selectBox-item">-->
+                    <!--<div class="selectBox-left">-->
+                        <!--<img src="__PUBLIC__/Zyly/images/dingw@2x.png" alt="">-->
+                        <!--<span>服务中心</span>-->
+                    <!--</div>-->
+                    <!--<div  class="selectBox-right">-->
+                        <!--<img src="__PUBLIC__/Zyly/images/jiantou@2x1.png" alt="">-->
+                    <!--</div>-->
+            <!--</div>-->
+            
+        </div>
+        <include file="$nav" />
+    </div>
+</body>
+<script>
+    function select_address(sta){
+        location.href='{:U("Person/order")}?status='+sta;
+    }
+    
+    function my_fance(id){
+        location.href='{:U("Person/my_fan")}?id='+id;
+    }
+    
+    function service(){
+        location.href='{:U("Person/serverCenter")}';
+    }
+    function rewardDetail(){
+        location.href='{:U("Person/rewardDetail")}';
+    }
+    function info(){
+        location.href='{:U("Person/personalInfo")}';
+    }
+    function wallet(){
+        location.href='{:U("Person/wallet")}';
+    }
+    function  callphone(){
+        location.href='tel:13318203838';
+    }
+    function jifen(){
+        location.href='{:U("Person/integral_record")}';
+    }
+</script>
+</html>

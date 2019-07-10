@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/media.css">
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/integral_record.css">
+    <script src="__PUBLIC__/Zyly/js/jquery-2.2.2.min.js"></script>
+    <script src="__PUBLIC__/Zyly/js/layer-v3.1.1/layer/layer.js"></script>
+</head>
+
+<body>
+    <div class="wallet">
+        <!-- <div class="walletTop">
+            <div class="walletTopFont">
+                账户余额 &nbsp;(元)
+            </div>
+            <div class="walletTopNub">
+                <p>￥{$can_withdraw}</p>
+                <span onclick="settlement({$can_withdraw},'{$users.phone}',{$users.banks});">提现</span>
+
+            </div>
+        </div>
+        <div class="tip">
+            <p>提现手续费2%，比如 ，提现金额5400元，提示实际到帐金额5292元，定单在系统秒结算，每周六中午12点前提现，下周一当天内到帐。每周仅限提现一次，建议周六中午12点前前作一次性提现操作，超过的部分，要下下周才能到帐。</p>
+        </div> -->
+        <div class="walletBottom">
+            <div class="walletBottom-income">
+                <div>
+                    <p>可用积分</p>
+                    <span>{$users.do_score}积分</span>
+                </div>
+                <div>
+                    <p>累积积分</p>
+                    <span>{$users.total_score}积分</span>
+                </div>
+            </div>
+    
+            <div class="walletBottom-cashDetail">
+                <volist name="record" id="vol">
+                    <div class="cashDetailItem">
+                        <span>{$vol.price}</span>
+                        <span>{$vol.addtime}</span>
+                       <span>{$vol.explain}</span>
+                    </div>
+                </volist>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+ <!-- 底部导航 -->
+ <div class="bottom clearfix" >
+    <div class="bottom-navItem <?php if($cont =='Goods'){echo 'bottom-navItem-act';}?> localurl " data-url="Goods/index">
+        <if condition="$cont eq 'Goods'" >
+            <img src="__PUBLIC__/Zyly/images/index2ik@2x.png" alt="">
+        <else />
+            <img src="__PUBLIC__/Zyly/images/index1ik@2x.png" alt="">
+        </if>
+        <span>首页</span>
+    </div>
+    <div class="bottom-navItem <?php if($cont =='Map'){echo 'bottom-navItem-act';}?> localurl " data-url="Map/map">
+        <if condition="$cont eq 'Map'" >
+            <img src="__PUBLIC__/Zyly/images/map2ik@2x.png" alt="">
+        <else />
+            <img src="__PUBLIC__/Zyly/images/map1ik@2x.png" alt="">
+        </if>
+        <span>代理</span>
+    </div>
+    
+    <div class="bottom-navItem  <?php if($cont =='Vip'){echo 'bottom-navItem-act';}?> localurl " data-url="Vip/memberCenter">
+        <if condition="$cont eq 'Vip'" >
+            <img src="__PUBLIC__/Zyly/images/vip2ik@2x.png" alt="">
+        <else />
+            <img src="__PUBLIC__/Zyly/images/vip1ik@2x.png" alt="">
+        </if>
+        <span>会员</span>
+    </div>
+    <div class="bottom-navItem <?php if($cont =='Person'){echo 'bottom-navItem-act';}?> localurl"  data-url="person/person">
+        <if condition="$cont eq 'Person'" >
+            <img src="__PUBLIC__/Zyly/images/person2ik@2x.png" alt="">
+        <else />
+            <img src="__PUBLIC__/Zyly/images/person1ik@2x.png" alt="">
+        </if>
+        <span>我的</span>
+    </div>
+</div>
+
+<script>
+    $(function(){
+        $('.localurl').click(function(){
+            var url = $(this).attr('data-url');
+            window.location.href = "__MODULE__/"+url;
+        }); 
+    })
+</script>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>支付成功</title>
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/media.css">
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/successPay.css">
+  
+</head>
+
+<body>
+    <div class="successPay">
+        <div class="successPay-top">
+            <div class="successImg">
+                <img src="__PUBLIC__/Zyly/images/duidudid@2x.png" alt="">
+            </div>
+            <div class="successFont">
+                <span>订单支付成功</span>
+            </div>
+            <div class="successPay-manner">
+                <img src="__PUBLIC__/Zyly/images/kakakaka@2x.png" alt="">
+                <span>支付方式</span>
+                <span>微信支付</span>
+            </div>
+            <div class="successPay-money">
+                <img src="__PUBLIC__/Zyly/images/zhifu@2x.png" alt="">
+                <span>支付金额</span>
+                <span>￥{$money}</span>
+            </div>
+            <div class="successPay-btn">
+                <span class="order">查看订单</span>
+                <span class="index">回到首页</span>
+            </div>
+        </div>
+        <div class="successPay-bottom">
+            <div class="tip">
+                <img src="__PUBLIC__/Zyly/images/!!!!!@2x.png" alt="">
+                <span>温馨提示:</span>
+            </div>
+            <p>
+                中亚国旅不会以订单异常、系统升级为由要求您点击任何网址链接进行退款操作。
+            </p>
+        </div>
+
+    </div>
+
+</body>
+<script src="__PUBLIC__/Zyly/js/jquery-2.2.2.min.js"></script>
+<script>
+    $(function(){
+        $('.index').click(function(){
+            location.href='{:U("Goods/index")}';
+        })
+        $('.order').click(function(){
+            location.href='{:U("Person/order")}';
+        })
+    })
+</script>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>地址管理</title>
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/media.css">
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/addrManage.css">
+    
+</head>
+
+<body>
+    <div class="addrManage">
+        <volist name="address" id="vol">
+            <div class="addrManageItem addrItenAct">
+                <div class="addrManageItem-top">
+                    <div class="addrInfo-name">
+                        <span>{$vol.name}</span>
+                        <span>{$vol.tel}</span>
+                    </div>
+                    <div class="addrInfo-addr">
+                        <span>{$vol.address}</span>
+                    </div>
+                    <if condition="$vol.is_default eq 1">
+                        <div class="manageDefaultBtn">
+                            <span>默认</span>
+                        </div>
+                    </if>
+                </div>
+                <div class="addrManageItem-bottom">
+                    <if condition="$vol.is_default eq 1">
+                        <div class="addrManageItem-bottom-left">
+                            <lable>
+                                <i class='input_style checkbox_bg radio_bg_check' onclick="set_default({$vol.id})"><input name="sel" id="selectItem" type="radio"></i>
+                                默认地址
+                            </lable>
+                        </div>
+                    <else/>
+                        <div class="addrManageItem-bottom-left">
+                            <lable>
+                                <i class='input_style checkbox_bg ' onclick="set_default({$vol.id})"><input name="sel" id="selectItem" type="radio"></i>
+                                默认地址
+                            </lable>
+                        </div>
+                    </if>
+                    <div class="addrManageItem-bottom-right">
+                        <div class="editBtn" data-id="{$vol.id}">
+                            <img src="__PUBLIC__/Zyly/images/qianqian@2x.png" alt="">
+                            <span>编辑</span>
+                        </div>
+                        <div class="delect"  data-id="{$vol.id}">
+                            <img src="__PUBLIC__/Zyly/images/lajit@2x.png" alt="">
+                            <span>删除</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </volist>
+        
+        <div class="bottom-addrManage">
+            <div class="addrManageBox">
+                <div class="addrManageBtn">
+                    <img src="__PUBLIC__/Zyly/images/++++++@2x.png" alt="">
+                    <span>添加收货人</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="__PUBLIC__/Zyly/js/jquery-2.2.2.min.js"></script>
+    <script src="__PUBLIC__/Zyly/js/input.js"></script>
+    <script src="__PUBLIC__/Zyly/js/layer-v3.1.1/layer/layer.js"></script>
+<script>
+$(function(){
+    var uid={$uid};
+    $('.editBtn').click(function(){
+        var id=$(this).attr('data-id');
+        location.href='{:U("Address/edit_address")}?id='+id+'&type=2&uid='+uid;
+    })
+
+    $('.delect').click(function(){
+        var id=$(this).attr('data-id');
+        layer.confirm('是否删除地址？', {
+            btn: ['是','否'] //按钮
+        }, function(){  
+            $.ajax({
+				'url':'__CONTROLLER__/del_address',
+				'type':'get',
+				'data':{'id':id},
+				'dataType':'json',
+				'success':function(data){
+                    if(data.status==1){
+                        layer.msg('删除成功',{time:500},function(){
+                            location.reload();
+                        });
+                    }else{
+                        layer.msg('删除失败',{time:2000});
+                    }
+				}
+			});
+        });
+        // location.href='{:U("Address/del_address")}?id='+id;
+    })
+
+    $('.addrManageBtn').click(function(){
+        var id=$(this).attr('data-id');
+        location.href='{:U("Address/edit_address")}?type=2&uid='+uid;
+    })
+})
+
+    function set_default(id){
+        $.ajax({
+            'url':'__CONTROLLER__/default_address',
+            'type':'get',
+            'data':{'id':id},
+            'dataType':'json',
+            'success':function(data){
+                if(data.status==1){
+                    layer.msg(data.msg,{time:500},function(){
+                        location.reload();
+                    });
+                }else{
+                    layer.msg(data.msg,{time:1000});
+                }
+            }
+        });
+    }
+</script>
+
+</html>

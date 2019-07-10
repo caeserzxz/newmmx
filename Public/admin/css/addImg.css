@@ -1,0 +1,186 @@
+.lock {
+  background: #000000;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  filter: alpha(opacity=30);
+  /*IE滤镜，透明度50%*/
+  -moz-opacity: 0.3;
+  /*Firefox私有，透明度50%*/
+  opacity: 0.3;
+  /*其他，透明度50%*/
+  z-index: 5;
+  display: none;
+}
+.container {
+  min-height: 1000px;
+}
+.container .add-content {
+  padding: 0 20px;
+}
+.container .add-content .title {
+  box-sizing: border-box;
+  width: 100%;
+  height: 76px;
+  font-size: 22px;
+  color: #333;
+  line-height: 76px;
+  border-bottom: 1px solid #cccccc;
+}
+.container .add-content .add-btn {
+  text-align: right;
+  margin-right: 180px;
+  padding-top: 40px;
+}
+.container .add-content .add-btn button {
+  width: 120px;
+  height: 30px;
+  font-size: 18px;
+  background: #f83f69;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.container .add-content .add-box {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.container .add-content .add-box ul .head-list {
+  box-sizing: border-box;
+  float: left;
+  width: 33.33333%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #000;
+  border-right: none;
+  text-align: center;
+}
+.container .add-content .add-box ul li:nth-child(3) {
+  border-right: 1px solid #000;
+}
+.container .add-content .add-box .list-body li {
+  box-sizing: border-box;
+  float: left;
+  width: 33.33333%;
+  height: 110px;
+  line-height: 110px;
+  border: 1px solid #000;
+  border-right: none;
+  text-align: center;
+  border-top: none;
+}
+.container .add-content .add-box .list-body li img {
+  width: 160px;
+  vertical-align: middle;
+}
+.container .add-content .add-box .list-body li p {
+  word-wrap: break-word;
+  word-break: normal;
+  line-height: normal;
+  padding: 10px;
+  text-align: start;
+}
+
+.container .add-content .add-box .list-body li a {
+  color: #333;
+}
+
+.container .add-content .dua-box {
+  width: 600px;
+  height: 600px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: none;
+  background: #fff;
+}
+.container .add-content .dua-box h3 {
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+}
+.container .add-content .dua-box .closeImgbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/chacha.png) no-repeat center;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.container .add-content .dua-box .box-warp {
+  width: 600px;
+  height: 350px;
+}
+.container .add-content .dua-box .box-warp .add-img {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+.container .add-content .dua-box .box-warp .add-img .addImg {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+.container .add-content .dua-box .box-warp .add-img .upload_input {
+  display: block;
+  width: 0;
+  height: 0;
+  -webkit-opacity: 0.0;
+  -moz-opacity: 0.0;
+  -khtml-opacity: 0.0;
+  opacity: .0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+.container .add-content .dua-box .box-warp .add-img .preBlock {
+  position: absolute;
+  display: block;
+  width: 300px;
+  height: 200px;
+  left: 0;
+  top: 0;
+}
+.container .add-content .dua-box .box-warp .add-img .preBlock img {
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+.container .add-content .dua-box .box-warp .add-img .delete {
+  width: 30px;
+  position: absolute;
+  right: -30px;
+  top: -15px;
+  cursor: pointer;
+  display: none;
+
+}
+.container .add-content .dua-box .btn-sub {
+  text-align: center;
+}
+.container .add-content .dua-box .btn-sub button {
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  background: #f83f69;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}

@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "PingFang SC";
+}
+ul li {
+  list-style: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+}
+.line {
+  height: .2rem;
+  background: #eee;
+}
+.load {
+  height: 1.46rem;
+  background: #eee;
+  margin-bottom: 1.1rem;
+}
+.load .span-c3 {
+  font-size: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.load .span-c3 span {
+  display: inline-block;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 50%;
+  margin-top: .3rem;
+}
+.load .span-c3 span:nth-child(1) {
+  background: #ffcc41;
+}
+.load .span-c3 span:nth-child(2) {
+  background: #fff;
+}
+.load p {
+  font-size: .24rem;
+  text-align: center;
+  color: #999;
+  padding-top: 0.2rem;
+}
+.span-c3 span:nth-child(1) {
+  animation: loader1 1s linear infinite;
+}
+.span-c3 span:nth-child(2) {
+  animation: loader2 1s linear infinite;
+}
+@keyframes loader1 {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(0.4rem);
+  }
+}
+@keyframes loader2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-0.4rem);
+  }
+}
+body {
+  background: #eee;
+}
+.addrManage .addrManageItem {
+  margin-top: .2rem;
+  position: relative;
+}
+.addrManage .addrManageItem .addrManageItem-top {
+  height: 1.3rem;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+  border-bottom: .01rem solid #eee;
+}
+.addrManage .addrManageItem .addrManageItem-top .addrInfo-name {
+  padding-top: .3rem;
+  font-size: .28rem;
+  color: #333;
+}
+.addrManage .addrManageItem .addrManageItem-top .addrInfo-name span:nth-child(2) {
+  padding-left: .3rem;
+}
+.addrManage .addrManageItem .addrManageItem-top .addrInfo-addr {
+  padding-top: .1rem;
+  font-size: .24rem;
+  color: #666;
+}
+.addrManage .addrManageItem .addrManageItem-top .manageDefaultBtn {
+  display: none;
+  position: absolute;
+  top: .3rem;
+  right: 2.74rem;
+}
+.addrManage .addrManageItem .addrManageItem-top .manageDefaultBtn span {
+  display: inline-block;
+  width: .8rem;
+  height: .38rem;
+  text-align: center;
+  line-height: .38rem;
+  border: .01rem solid #fea947;
+  color: #fea947;
+  border-radius: .1rem;
+}
+.addrManage .addrManageItem .addrManageItem-bottom {
+  height: .7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+}
+.addrManage .addrManageItem .addrManageItem-bottom .addrManageItem-bottom-left {
+  font-size: .24rem;
+  color: #666;
+}
+.addrManage .addrManageItem .addrManageItem-bottom .addrManageItem-bottom-left input[type='radio'],
+.addrManage .addrManageItem .addrManageItem-bottom .addrManageItem-bottom-left input[type='checkbox'] {
+  width: .3rem;
+  height: .3rem;
+  vertical-align: middle;
+  opacity: 0;
+}
+.addrManage .addrManageItem .addrManageItem-bottom .addrManageItem-bottom-left .input_style {
+  width: .3rem;
+  height: .3rem;
+  display: inline-block;
+}
+.addrManage .addrManageItem .addrManageItem-bottom .addrManageItem-bottom-left .radio_bg {
+  width: .3rem;
+  height: .3rem;
+  border: .01rem solid #ddd;
+  border-radius: 50%;
+}
+.addrManage .addrManageItem .addrManageItem-bottom .addrManageItem-bottom-left .checkbox_bg {
+  width: .3rem;
+  height: .3rem;
+  border: .01rem solid #ddd;
+  border-radius: 50%;
+}
+.addrManage .addrManageItem .addrManageItem-bottom .addrManageItem-bottom-left .radio_bg_check {
+  border-color: transparent;
+  background: url("../images/dyuduidui@2x.png") no-repeat;
+  background-size: .28rem .29rem;
+}
+.addrManage .addrManageItem .addrManageItem-bottom .addrManageItem-bottom-left .checkbox_bg_check {
+  border-color: transparent;
+  background: url("../images/dyuduidui@2x.png") no-repeat;
+  background-size: .3rem .3rem;
+}
+.addrManage .addrManageItem .addrManageItem-bottom .addrManageItem-bottom-right {
+  display: flex;
+}
+.addrManage .addrManageItem .addrManageItem-bottom .addrManageItem-bottom-right > div {
+  vertical-align: middle;
+  margin-left: .3rem;
+}
+.addrManage .addrManageItem .addrManageItem-bottom .addrManageItem-bottom-right > div img {
+  width: .32rem;
+  height: .32rem;
+  vertical-align: middle;
+}
+.addrManage .addrManageItem .addrManageItem-bottom .addrManageItem-bottom-right > div span {
+  font-size: .24rem;
+  color: #666;
+  vertical-align: middle;
+}
+.addrManage .addrItenAct .addrManageItem-top .manageDefaultBtn {
+  display: block;
+}
+.addrManage .bottom-addrManage {
+  position: fixed;
+  width: 100%;
+  height: .98rem;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+}
+.addrManage .bottom-addrManage .addrManageBox {
+  margin: .1rem auto;
+  width: 4rem;
+  height: .8rem;
+}
+.addrManage .bottom-addrManage .addrManageBox .addrManageBtn {
+  width: 4rem;
+  height: .8rem;
+  text-align: center;
+  line-height: .8rem;
+  border-radius: .4rem;
+  background: #29c2a3;
+}
+.addrManage .bottom-addrManage .addrManageBox .addrManageBtn img {
+  width: .2rem;
+  height: .2rem;
+}
+.addrManage .bottom-addrManage .addrManageBox .addrManageBtn span {
+  font-size: .32rem;
+  color: #fff;
+  font-weight: 900;
+}

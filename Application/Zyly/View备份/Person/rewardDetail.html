@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>奖励明细</title>
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/media.css">
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/rewardDetail.css">
+</head>
+
+<body>
+    <div class="rewardDetail">
+        <div class="rewardDetail-tit">
+            <div class="rewardDetail-tit-left">
+                <img src="__PUBLIC__/Zyly/images/dyorn@2x.png" alt="">
+                <div class="succBox">
+                    <span class="succtTop">成功推荐</span>
+                    <span class="succtBott"><i>{$users_num}</i>人</span>
+                </div>
+            </div>
+            <div class="rewardDetail-tit-right">
+                <img src="__PUBLIC__/Zyly/images/dyorn@2x.png" alt="">
+                <div class="sum">
+                    <span class="sumTop">累计奖金</span>
+                    <span class="sumBott"><i>{$users.total}</i>元</span>
+                </div>
+            </div>
+        </div>
+        <div class="rewardDetailItem-tit">
+                        奖励明细
+        </div>
+        <div class="rewardDetail-cont">
+            <volist name="data" id="vol">
+                <div class="rewardDetailItem">
+                    
+                    <div class="rewardDetailItem-nub">
+                        <div class="rewardDetailItem-nub-left">
+                            订单编号:{$vol.order_sn}
+                        </div>
+                        <div class="rewardDetailItem-nub-right">
+                            <if condition="$vol.status eq 20">
+                                待发货
+                            <elseif condition="$vol.status eq 30" />
+                                待收货
+                            <elseif condition="$vol.status eq 40" />
+                                待评价
+                            <elseif condition="$vol.status eq 50" />
+                                已完成
+                            </if>
+                        </div>
+                    </div>
+
+                    <div class="rewardDetailItem-goods">
+                        <div class="rewardDetailItem-goods-img">
+                            <img src="__DATA__/{$vol.photo_x}" alt="">
+                        </div>
+                        <div class="rewardDetailItem-goods-info">
+                            <div class="goodsInfo-goodsName">
+                               {$vol.goods_name}
+                            </div>
+                            <div class="goodsInfo-buyTime">
+                                付款时间:<?php echo date("Y-m-d H:i:s",$vol['pay_time'])?>
+                            </div>
+                        </div>
+                        <div class="rewardDetailItem-goods-mount">
+                            ×1
+                        </div>
+                    </div>
+                    <div class="rewardDetailItem-orderDetail">
+                        <div class="orderDetail-item">
+                            <p>订单来源</p>
+                            <p>{$vol.uname}</p>
+                        </div>
+                        <div class="orderDetail-item">
+                            <p>付款金额</p>
+                            <p>￥{$vol.price_h}</p>
+                        </div>
+                        <div class="orderDetail-item">
+                            <p>分佣比例</p>
+                            <p>{$vol.maid}%</p>
+                        </div>
+                        <div class="orderDetail-item">
+                            <p>预估收益</p>
+                            <p>￥{$vol.profit}</p>
+                        </div>
+                    </div>
+
+                </div>
+            </volist>
+        </div>
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>

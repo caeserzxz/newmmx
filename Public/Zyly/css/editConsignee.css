@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "PingFang SC";
+}
+ul li {
+  list-style: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+}
+.line {
+  height: .2rem;
+  background: #eee;
+}
+.load {
+  height: 1.46rem;
+  background: #eee;
+  margin-bottom: 1.1rem;
+}
+.load .span-c3 {
+  font-size: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.load .span-c3 span {
+  display: inline-block;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 50%;
+  margin-top: .3rem;
+}
+.load .span-c3 span:nth-child(1) {
+  background: #ffcc41;
+}
+.load .span-c3 span:nth-child(2) {
+  background: #fff;
+}
+.load p {
+  font-size: .24rem;
+  text-align: center;
+  color: #999;
+  padding-top: 0.2rem;
+}
+.span-c3 span:nth-child(1) {
+  animation: loader1 1s linear infinite;
+}
+.span-c3 span:nth-child(2) {
+  animation: loader2 1s linear infinite;
+}
+@keyframes loader1 {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(0.4rem);
+  }
+}
+@keyframes loader2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-0.4rem);
+  }
+}
+.editConsignee .consigneeInfo > div {
+  height: .66rem;
+  line-height: .66rem;
+  border-bottom: .01rem solid #eee;
+}
+.editConsignee .consigneeInfo > div span {
+  display: inline-block;
+  width: 2rem;
+  box-sizing: border-box;
+  padding-left: .3rem;
+  font-size: .28rem;
+  color: #666666;
+}
+.editConsignee .consigneeInfo > div input {
+  height: .6rem;
+  border: none;
+  width: 4.5rem;
+  box-sizing: border-box;
+  padding-left: .2rem;
+  font-size: .28rem;
+}
+.editConsignee .consigneeInfo .consigneeInfo-area {
+  font-size: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.editConsignee .consigneeInfo .consigneeInfo-area img {
+  float: right;
+  width: .16rem;
+  height: .3rem;
+  margin-top: .18rem;
+  margin-right: .3rem;
+}
+.editConsignee .defaultAddress .selectIcon {
+  display: flex;
+  box-sizing: border-box;
+  padding: .1rem .3rem;
+}
+.editConsignee .defaultAddress .selectIcon input[type='radio'],
+.editConsignee .defaultAddress .selectIcon input[type='checkbox'] {
+  width: .20rem;
+  height: .21rem;
+  vertical-align: middle;
+  opacity: 0;
+}
+.editConsignee .defaultAddress .selectIcon .input_style {
+  width: .20rem;
+  height: .21rem;
+  display: inline-block;
+  margin-top: .1rem;
+}
+.editConsignee .defaultAddress .selectIcon .radio_bg {
+  width: .20rem;
+  height: .21rem;
+  border: .01rem solid #ddd;
+  border-radius: 50%;
+}
+.editConsignee .defaultAddress .selectIcon .checkbox_bg {
+  width: .20rem;
+  height: .21rem;
+  border: .01rem solid #ddd;
+  border-radius: 50%;
+}
+.editConsignee .defaultAddress .selectIcon .radio_bg_check {
+  background: url("../images/dyuduidui@2x.png") no-repeat;
+  background-size: contain;
+}
+.editConsignee .defaultAddress .selectIcon .checkbox_bg_check {
+  border-color: transparent;
+  background: url("../images/dyuduidui@2x.png") no-repeat;
+  background-size: .20rem .21rem;
+}
+.editConsignee .defaultAddress .selectIcon span {
+  color: #999;
+  padding-top: .06rem;
+  padding-left: .12rem;
+  font-size:.28rem;
+}
+.editConsignee .saveBtn {
+  display: block;
+}
+.editConsignee .saveBtn span {
+  display: block;
+  margin: .6rem auto;
+  width: 6rem;
+  height: .8rem;
+  line-height: .8rem;
+  text-align: center;
+  background: #29c2a3;
+  border-radius: .12rem;
+  font-size: .36rem;
+  color: #fff;
+}
+.address_select{
+  width: 6.9rem;
+  height: .8rem;
+  /* margin: .3rem auto; */
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: .24rem;
+  color: #999;
+}
+.address_select select{
+ text-align: center;
+}

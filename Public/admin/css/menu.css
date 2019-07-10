@@ -1,0 +1,286 @@
+.select {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  color: #333;
+  font-size: 14px;
+}
+.select dt {
+  height: 28px;
+  display: inline-block;
+  border: 1px solid #d2ccc4;
+  border-radius: 4px;
+  line-height: 28px;
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 120px;
+  padding-right: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  position: relative;
+}
+.select .select dt:hover,
+.select .select dt.cur {
+  border: 1px solid #f83f69;
+  border-radius: 4px;
+  box-shadow: 0 0 3px #f83f69;
+}
+.select dd {
+  position: absolute;
+  left: 0;
+  top: 29px;
+  border: 1px solid #d2ccc4;
+  background: #fff;
+  display: none;
+  z-index: 1;
+}
+.select dd ul {
+  padding: 4px;
+  width: 132px;
+  max-height: 250px;
+  overflow: auto;
+}
+.select dd ul li a {
+  line-height: 28px;
+  display: block;
+  padding: 0 8px;
+}
+.select dd ul li a:hover {
+  background: #f5f5f5;
+}
+.span-b {
+  display: inline-block;
+  width: 130px;
+  color: #333;
+  padding-left: 0 !important;
+}
+.s-menu .container .menu-title {
+  box-sizing: border-box;
+  width: 100%;
+  height: 76px;
+  font-size: 22px;
+  color: #333;
+  line-height: 76px;
+  border-bottom: 1px solid #cccccc;
+}
+.s-menu .container .menu-content {
+  padding: 20px;
+}
+.s-menu .container .menu-content .content-top input {
+  border: 1px solid #ccc;
+  height: 20px;
+  width: 120px;
+  padding: 0 16px;
+}
+.s-menu .container .menu-content .content-top p {
+  display: inline-block;
+  font-size: 14px;
+  color: #333;
+}
+.s-menu .container .menu-content .content-center {
+  padding-top: 20px;
+}
+.s-menu .container .menu-content .content-bottom {
+  display:none;
+  padding-top: 20px;
+}
+.s-menu .container .menu-content .content-bottom button {
+  width: 70px;
+  height: 25px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+.s-menu .container .menu-content .content-bottom input {
+  margin-left: 10px;
+  width: 450px;
+  padding-left: 10px;
+}
+.s-menu .container .menu-content .content-bottom span {
+  padding-left: 136px;
+  color: #333;
+}
+.s-menu .container .menu-content .content-bottom .url-name {
+  padding-top: 10px;
+}
+.s-menu .container .menu-content .content-bottom .url-src {
+  padding-top: 10px;
+}
+.s-menu .container .menu-content > button {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #ccc;
+  background: #0a6999;
+  outline: none;
+  margin-left: 136px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.s-menu .container .menu-content .content-click {
+  display:none;
+  padding-top: 20px;
+}
+.s-menu .container .menu-content .content-click button {
+  width: 70px;
+  height: 25px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+.s-menu .container .menu-content .content-click input {
+  margin-left: 10px;
+  width: 450px;
+  padding-left: 10px;
+}
+.s-menu .container .menu-content .content-click span {
+  /* padding-left: 136px; */
+  color: #333;
+}
+.s-menu .container .menu-content .content-click .url-name {
+  padding-top: 10px;
+}
+.s-menu .container .menu-content .content-click .url-src {
+  padding-top: 10px;
+}
+.s-menu .container .menu-content > button {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #ccc;
+  background: #5a98de;
+  outline: none;
+  margin-left: 136px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.s-menu .container .menu-content .content-miniprogram {
+  display:none;
+  padding-top: 20px;
+}
+.s-menu .container .menu-content .content-miniprogram input {
+  margin-left: 10px;
+  width: 450px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+.s-menu .container .menu-content .content-miniprogram span {
+  color: #333;
+}
+
+.s-menu .container .menu-content .content-miniprogram input {
+  margin-top: 10px;
+}
+.s-menu .container .menu-content .content-miniprogram .url-nameBox{
+  vertical-align: middle;
+  margin-left: 10px;
+  display: inline-block;
+  width:500px;
+  background: #ffe4ca;
+}
+.s-menu .container .menu-content .content-miniprogram .url-nameBox img{
+  vertical-align: middle;
+}
+/* 发送图文消息 */
+.s-menu .container .menu-content .image_text {
+  display:none;
+  padding-top: 20px;
+}
+.s-menu .container .menu-content .image_text span {
+  color: #333;
+}
+.s-menu .container .menu-content .image_text input {
+  margin-left: 48px;
+  width: 425px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+/* 添加图片 */
+.s-menu .container .menu-content .image_text.dua-box {
+  width: 600px;
+  height: 600px;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: none;
+  background: #fff;
+}
+.s-menu .container .menu-content .image_text .dua-box .closeImgbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/chacha.png) no-repeat center;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.s-menu .container .menu-content .image_text .dua-box .box-warp {
+  width: 600px;
+  height: 350px;
+}
+.s-menu .container .menu-content .image_text .dua-box .box-warp .add-img {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+.s-menu .container .menu-content .image_text .dua-box .box-warp .add-img .addImg {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+.s-menu .container .menu-content .image_text .dua-box .box-warp .add-img .upload_input {
+  display: block;
+  width: 0;
+  height: 0;
+  -webkit-opacity: 0.0;
+  -moz-opacity: 0.0;
+  -khtml-opacity: 0.0;
+  opacity: .0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+.s-menu .container .menu-content .image_text .dua-box .box-warp .add-img .preBlock {
+  position: absolute;
+  display: block;
+  width: 300px;
+  height: 200px;
+  left: 0;
+  top: 0;
+}
+.s-menu .container .menu-content .image_text .dua-box .box-warp .add-img .preBlock img {
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+.s-menu .container .menu-content .image_text .dua-box .box-warp .add-img .delete {
+  width: 30px;
+  position: absolute;
+  right: -30px;
+  top: -15px;
+  cursor: pointer;
+  display: none;
+
+}

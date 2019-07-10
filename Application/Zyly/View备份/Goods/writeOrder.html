@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>填写订单</title>
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/media.css">
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/writeOrder.css">
+  
+</head>
+
+<body>
+
+    <div class="writeOrder">
+        <div class="writeOrder-userInfo">
+            <div class="userInfo-top">
+                <span class="userInfoName">{$address.name}</span>
+                <span class="userInfoPhone">{$address.tel}</span>
+            </div>
+            <div class="userInfo-address">
+                <img src="__PUBLIC__/Zyly/images/dingwei@2x.png" alt="">
+                <span>{$address.address_xq}</span>
+            </div>
+            <div class="userInfo-subAddres s">
+                <span>{$address.address}</span>
+            </div> 
+            <div class="defaultBtn">
+            <if condition="$address['id'] eq '999999999'" >
+                <span onclick="selects({$user_info.id},{$goods.id},{$goods.buy_num})">添加收货地址</span>
+            <else/>
+                <span>默认</span>
+            </if>
+            </div>
+            <div class="rightBtn">
+                <img onclick="selects({$user_info.id},{$goods.id},{$goods.buy_num})" src="__PUBLIC__/Zyly/images/jiantou@2x1.png" alt="">
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="goodsInfo">
+            <div class="goodsInfo-tit">
+                商品信息
+            </div>
+            <div class="goodsInfo-cont">
+                <div class="orderItem">
+                    <div class="goodsInfo-cont-left">
+                        <img src="__DATA__/{$goods.photo_x}" alt="">
+                    </div>
+                    <div class="goodsInfo-cont-right">
+                        <div class="rightBox-goodsName">
+                           {$goods.name}
+                        </div>
+                        <!-- <div class="rightBox-subGoodsDetail">
+                            百搭上衣尺码：白色M
+                        </div> -->
+                        <div class="rightBox-price">
+                            <span class="fuhao">￥</span><span>{$goods.price}</span>
+                        </div>
+                        <div class="rightBox-count">
+                            <span>x{$goods.buy_num}</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="orderItem">
+                    <div class="goodsInfo-cont-left">
+                        <img src="__PUBLIC__/Zyly/images/goods.png" alt="">
+                    </div>
+                    <div class="goodsInfo-cont-right">
+                        <div class="rightBox-goodsName">
+                            10个旅游卡 4190元的净水器 10个旅游卡 4190元的净水器
+                        </div>
+                        <div class="rightBox-subGoodsDetail">
+                            百搭上衣尺码：白色M
+                        </div>
+                        <div class="rightBox-price">
+                            <span class="fuhao">￥</span><span>1299</span>
+                        </div>
+                        <div class="rightBox-count">
+                            <span>x1</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="moneyBox">
+            <div class="goodsTotal">
+                <span>商品合计</span>
+                <span>￥{$goods.count_price}</span>
+            </div>
+            <!-- <div class="fare">
+                <span>运费</span>
+                <div>
+                    <span>满88元包邮</span>
+                    <span>￥16.00</span>
+                </div>
+
+            </div> -->
+        </div>
+        <div class="writeOrder-bottom">
+            <div class="writeOrder-bottom-left">
+                <span>应付金额:</span>
+                <span>￥{$goods.count_price}</span>
+            </div>
+            <div class="writeOrder-bottom-right">
+                <span class="pay">订单支付</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert" style="display:none;">
+        <div class="alert-in">
+            <div class="no">
+                <img  id="no-img" src="__PUBLIC__/Zyly/images/chacha@2x (2).png" /></div>
+            <div class="pay">
+                <p>立即支付</p>
+                <div>¥{$goods.count_price}</div>
+            </div>
+            <div class="we">
+                <img src="__PUBLIC__/Zyly/images/icon_wexin@3x.png" class="we1" />
+                <img src="__PUBLIC__/Zyly/images/gengduo@2x.png" class="we2" />
+                <span>微信支付</span>
+            </div>
+            <a href="{:U('Goods/wechatPay')}?address_id={$address_id}&goods_id={$goods.id}&buy_num={$goods.buy_num}">
+                <div class="button">去支付</div>
+            </a>
+        </div>
+    </div>
+</body>
+<script src="__PUBLIC__/Zyly/js/jquery-2.2.2.min.js"></script>
+<script>
+    var address_id ={:$address_id};
+    function selects(uid,goods_id,buy_num){ 
+        location.href='{:U("Address/selectConsignee")}?uid='+uid+'&goods_id='+goods_id+'&buy_num='+buy_num;
+    }
+
+    $(function(){
+        $('.pay').click(function(){
+           if(address_id==999999999){
+               alert('请选择收货地址');
+           }else{
+            $('.alert').css('display','block');
+           }
+           
+        })
+        
+        $('.no').click(function(){
+            $('.alert').css('display','none');
+        })
+
+    })
+</script>
+</html>

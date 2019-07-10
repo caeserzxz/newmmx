@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "PingFang SC";
+}
+ul li {
+  list-style: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+}
+.line {
+  height: .2rem;
+  background: #eee;
+}
+.load {
+  height: 1.46rem;
+  background: #eee;
+  margin-bottom: 1.1rem;
+}
+.load .span-c3 {
+  font-size: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.load .span-c3 span {
+  display: inline-block;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 50%;
+  margin-top: .3rem;
+}
+.load .span-c3 span:nth-child(1) {
+  background: #ffcc41;
+}
+.load .span-c3 span:nth-child(2) {
+  background: #fff;
+}
+.load p {
+  font-size: .24rem;
+  text-align: center;
+  color: #999;
+  padding-top: 0.2rem;
+}
+.span-c3 span:nth-child(1) {
+  animation: loader1 1s linear infinite;
+}
+.span-c3 span:nth-child(2) {
+  animation: loader2 1s linear infinite;
+}
+@keyframes loader1 {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(0.4rem);
+  }
+}
+@keyframes loader2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-0.4rem);
+  }
+}
+body {
+  background: #eee;
+}
+.wallet .walletTop {
+  width: 6.9rem;
+  height: 3.1rem;
+  margin: .2rem auto;
+  background-image: url("../images/qbBj.png");
+  background-size: 6.9rem  3.1rem;
+  border-radius: .06rem;
+  box-sizing: border-box;
+  padding: 0 .2rem;
+}
+.wallet .walletTop .walletTopFont {
+  font-size: .28rem;
+  color: #fff;
+  padding-top: .6rem;
+}
+.wallet .walletTop .walletTopNub {
+  font-size: .8rem;
+  color: #fff;
+  padding-top: .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wallet .walletTop .walletTopNub p{
+
+}
+.wallet .walletTop .walletTopNub span{
+  display: inline-block;
+  width: 1.2rem;
+  text-align: center;
+  height: .5rem;
+  line-height: .5rem;
+  background: red;
+  font-size: .28rem;
+  border-radius: .06rem;
+}
+.wallet .walletBottom {
+  width: 6.9rem;
+  min-height: 5rem;
+  margin: 0 auto;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 0 .2rem;
+}
+.wallet .walletBottom .walletBottom-income {
+  display: flex;
+  font-size: 0;
+  border-bottom: .01rem solid #eee;
+}
+.wallet .walletBottom .walletBottom-income div {
+  width: 50%;
+  text-align: center;
+  margin: .2rem 0;
+  /* border-right: .01rem solid #eee; */
+}
+.wallet .walletBottom .walletBottom-income div p {
+  font-size: .28rem;
+}
+.wallet .walletBottom .walletBottom-income div span {
+  font-size: .32rem;
+  color: #ff343e;
+}
+.wallet .walletBottom .walletBottom-income div:nth-child(3) {
+  border-right: none;
+}
+.wallet .walletBottom .walletBottom-cashDetail .cashDetailItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: .8rem;
+  font-size: .24rem;
+  color: #333;
+  border-bottom: .01rem solid #eee;
+}
+.wallet .walletBottom .walletBottom-cashDetail .cashDetailItem span:nth-child(2) {
+  color: #ff343e;
+}
+.tip {
+  width: 6.9rem;
+  /* height: .8rem; */
+  background: #eee;
+  margin: 0 auto;
+  padding: 0rem .1rem .2rem;
+
+}
+.tip p{
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 .2rem;
+  background: #fff;
+  /* height: .8rem; */
+  width: 100%;
+  font-size: .20rem;
+  color: #333;
+  padding: .12rem;
+}

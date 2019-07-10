@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "PingFang SC";
+}
+ul li {
+  list-style: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+}
+.line {
+  height: .2rem;
+  background: #eee;
+}
+.load {
+  height: 1.46rem;
+  background: #eee;
+  margin-bottom: 1.1rem;
+}
+.load .span-c3 {
+  font-size: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.load .span-c3 span {
+  display: inline-block;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 50%;
+  margin-top: .3rem;
+}
+.load .span-c3 span:nth-child(1) {
+  background: #ffcc41;
+}
+.load .span-c3 span:nth-child(2) {
+  background: #fff;
+}
+.load p {
+  font-size: .24rem;
+  text-align: center;
+  color: #999;
+  padding-top: 0.2rem;
+}
+.span-c3 span:nth-child(1) {
+  animation: loader1 1s linear infinite;
+}
+.span-c3 span:nth-child(2) {
+  animation: loader2 1s linear infinite;
+}
+@keyframes loader1 {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(0.4rem);
+  }
+}
+@keyframes loader2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-0.4rem);
+  }
+}
+.rewardDetail {
+  background: #eee;
+}
+.rewardDetail .rewardDetail-tit {
+  background: #fff;
+  display: flex;
+}
+.rewardDetail .rewardDetail-tit .rewardDetail-tit-left {
+  width: 50%;
+  display: flex;
+  height: 1.16rem;
+  justify-content: center;
+  align-items: center;
+  border-right: .01rem solid #eee;
+}
+.rewardDetail .rewardDetail-tit .rewardDetail-tit-left img {
+  width: .43rem;
+  height: .4rem;
+  margin-right: .1rem;
+}
+.rewardDetail .rewardDetail-tit .rewardDetail-tit-left .succBox {
+  font-size: .28rem;
+}
+.rewardDetail .rewardDetail-tit .rewardDetail-tit-left .succBox .succtTop {
+  color: #333;
+}
+.rewardDetail .rewardDetail-tit .rewardDetail-tit-left .succBox .succtBott {
+  display: flex;
+  color: #666;
+}
+.rewardDetail .rewardDetail-tit .rewardDetail-tit-left .succBox .succtBott i {
+  font-style: normal;
+  color: #ff343e;
+}
+.rewardDetail .rewardDetail-tit .rewardDetail-tit-right {
+  width: 50%;
+  display: flex;
+  height: 1.16rem;
+  justify-content: center;
+  align-items: center;
+}
+.rewardDetail .rewardDetail-tit .rewardDetail-tit-right img {
+  width: .43rem;
+  height: .4rem;
+  margin-right: .1rem;
+}
+.rewardDetail .rewardDetail-tit .rewardDetail-tit-right .sum {
+  font-size: .28rem;
+}
+.rewardDetail .rewardDetail-tit .rewardDetail-tit-right .sum .sumTop {
+  color: #333;
+}
+.rewardDetail .rewardDetail-tit .rewardDetail-tit-right .sum .sumBott {
+  display: flex;
+  color: #666;
+}
+.rewardDetail .rewardDetail-tit .rewardDetail-tit-right .sum .sumBott i {
+  font-style: normal;
+  color: #ff343e;
+}
+.rewardDetail .rewardDetail-cont .rewardDetailItem {
+  background: #fff;
+  margin-top: .2rem;
+}
+.rewardDetail .rewardDetail-cont .rewardDetailItem .rewardDetailItem-tit {
+  height: .76rem;
+  line-height: .76rem;
+  color: #333;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+  border-bottom: .01rem solid #eee;
+  font-size: .28rem;
+}
+.rewardDetail .rewardDetail-cont .rewardDetailItem-nub {
+  font-size: .24rem;
+  border-bottom: .01rem solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: .68rem;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+}
+.rewardDetail .rewardDetail-cont .rewardDetailItem-nub .rewardDetailItem-nub-left {
+  color: #333;
+}
+.rewardDetail .rewardDetail-cont .rewardDetailItem-nub .rewardDetailItem-nub-right {
+  color: #fb353f;
+}
+.rewardDetail .rewardDetail-cont .rewardDetailItem-goods {
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+  border-bottom: .01rem solid #eee;
+}
+.rewardDetail .rewardDetail-cont .rewardDetailItem-goods .rewardDetailItem-goods-img img {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: .04rem;
+  display: block;
+}
+.rewardDetail .rewardDetail-cont .rewardDetailItem-goods .rewardDetailItem-goods-info {
+  width: 4.6rem;
+  margin: 0 .2rem;
+}
+.rewardDetail .rewardDetail-cont .rewardDetailItem-goods .rewardDetailItem-goods-info .goodsInfo-goodsName {
+  font-size: .28rem;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.rewardDetail .rewardDetail-cont .rewardDetailItem-goods .rewardDetailItem-goods-info .goodsInfo-buyTime {
+  font-size: .24rem;
+  color: #999;
+  padding-top: .2rem;
+}
+.rewardDetail .rewardDetail-cont .rewardDetailItem-goods .rewardDetailItem-goods-mount {
+  color: #18bd9a;
+}
+.rewardDetail .rewardDetail-cont .rewardDetailItem-orderDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1rem;
+}
+.rewardDetail .rewardDetail-cont .rewardDetailItem-orderDetail .orderDetail-item {
+  width: 25%;
+  font-size: .24rem;
+  color: #333;
+  text-align: center;
+}
+.rewardDetail .rewardDetail-cont .rewardDetailItem-orderDetail .orderDetail-item p {
+  padding: .04rem 0;
+}
+.rewardDetailItem-tit {
+  height: .76rem;
+  line-height: .76rem;
+  color: #333;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+  border-bottom: .01rem solid #eee;
+  background: #fff;
+  font-size: .28rem;
+  margin-top: .2rem;
+}

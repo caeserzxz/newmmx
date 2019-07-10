@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>自定义菜单</title>
+    <link rel="stylesheet" href="__PUBLIC__/admin/css/base.css">
+    
+
+    <link href="__PUBLIC__/admin/css/menu2.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="__PUBLIC__/admin/js/jquery.js"></script> -->
+    <script src="__PUBLIC__/admin/js/layer-v3.1.1/layer/layer.js"></script>
+    <!-- <script src="./js/table.js"></script> -->
+</head>
+
+<body>
+    <div class="view">
+       <!-- <include file="$nav" /> -->
+
+        <div class="s-menu">
+            <div class="container">
+                <div class="menu-title">
+                    <span>自定义菜单</span><a href="__CONTROLLER__/menu_add"><button class='add_menus' type="button">添加</button></a>
+                </div>
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th class="checkbox checkbox-primary">
+                                <input type="checkbox" class="styled" checked="checked" id="selectAll">
+                                <label for="selectAll">全选</label>
+                            </th>
+                            <th>ID</th>
+                            <th>菜单名</th>
+                            <th>是否有子菜单</th>
+                            <th>菜单类型</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <volist name='data' key='k' id='vol'>
+                                 <tr>
+                                    <td>
+                                        <input type="hidden" name="id" value="{$vol.id}">
+                                        <input class='checkeds' checked="checked" type="checkbox">
+                                    </td>
+                                    
+                                    <td class='id'>{$vol.id}</td>
+                                    <td>{$vol.name}</td>
+                                    <td>
+                                    <if condition="$vol.type eq 'menu'">
+                                        有
+                                    <else/>
+                                        无
+                                    </if>
+                                    </td>
+                                    <if condition="$vol.type eq view">
+                                        <td>跳转网页</td>
+                                    <elseif condition="$vol.type eq menu" />
+                                        <td>菜单</td>
+                                    <elseif condition="$vol.type eq click" />
+                                        <td>发送消息</td>
+                                    <elseif condition="$vol.type eq miniprogram" />
+                                        <td>跳转小程序</td>
+                                    </if>
+                                    <!-- <td>{$vol.type}</td> -->
+                                    <td>
+                                       <if condition="$vol.type eq 'menu'">
+                                            <a href="__CONTROLLER__/menu_add?id={$vol.id}"><img src="__PUBLIC__/admin/images/add2.png" alt="添加子菜单"></a>
+                                        <else/>
+                                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                        </if>
+                                        <a href="__CONTROLLER__/menu_save?id={$vol.id}"><img src="__PUBLIC__/admin/images/edit.png" alt="编辑"></a>
+                                        <img src="__PUBLIC__/admin/images/del.png"  onclick="del({$vol.id})" alt="删除">
+                                    </td>
+                                </tr>
+                                    <foreach name="vol.son" item="son">
+                                        <tr>
+                                            <td>
+                                                <input type="hidden" name="id" value="{$son.id}">
+                                                <input class='checkeds' checked="checked" type="checkbox">
+                                            </td>
+                                            
+                                            <td class='id'>-----{$son.id}</td>
+                                            <td>{$son.name}</td>
+                                            <td>
+                                                无
+                                            </td>
+                                            <if condition="$son.type eq view">
+                                                <td>跳转网页</td>
+                                            <elseif condition="$son.type eq menu" />
+                                                <td>菜单</td>
+                                            <elseif condition="$son.type eq click" />
+                                                <td>发送消息</td>
+                                            <elseif condition="$son.type eq miniprogram" />
+                                                <td>跳转小程序</td>
+                                            </if>
+                                            <!-- <td>{$son.type}</td> -->
+                                            <td>
+                                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                                <!-- <a href="__CONTROLLER__/menu_add?id={$son.id}"><img src="__PUBLIC__/Jzy/img/add.png" alt="添加子菜单"></a> -->
+                                                <a href="__CONTROLLER__/menu_save?id={$son.id}"><img src="__PUBLIC__/admin/images/edit.png" alt="编辑"></a>
+                                                <img src="__PUBLIC__/admin/images/del.png"  onclick="del({$son.id})" alt="删除">
+                                            </td>
+                                        </tr>
+                                    </foreach>
+                        </volist>
+                       
+                    </tbody>
+                </table>
+                <div class="tab-tip">
+                    <p>您确认微信自定义菜单建立完毕后,点击"生成菜单"按钮我们把数据发送至微信公众平台</p>
+                    <p>如果您的参数符合规则,微信自定义菜单将创建成功。由于微信客户端缓存,需要24小时微信客户端才可以展示出来。</p>
+                    <p>建议测试时可以尝试取消关注公众账号后，再次关注，则可以看到创建后的效果。</p>
+                    <p><span style="color: red;">如果有子菜单，必须创建一个子菜单</span></p>
+                    <p style="color:red;">自定义菜单最多包括3个一级菜单，每个一级菜单最多包含5个二级菜单。</p>
+                    <p style="color:red;">一级菜单最多5个汉字，二级菜单最多7个汉字，多出来的部分将会以“...”代替。</p>
+                    <button class='tijiao' type="button">生成菜单</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(function () {
+        //实现全选反选
+        $("#selectAll").on('click', function () {
+            $("tbody input:checkbox").prop("checked", $(this).prop('checked'));
+        })
+        $("tbody input:checkbox").on('click', function () {
+            //当选中的长度等于checkbox的长度的时候,就让控制全选反选的checkbox设置为选中,否则就为未选中
+            if ($("tbody input:checkbox").length === $("tbody input:checked").length) {
+                $("#selectAll").prop("checked", true);
+            } else {
+                $("#selectAll").prop("checked", false);
+            }
+        })
+        $('.tijiao').click(function(){
+            var checked_checkbox=$('.checkeds:checked');
+            var ids='';
+            // $('.checkeds:checked').siblings().val()
+            $.each(checked_checkbox, function(i,v){
+                //v是一个document元素对象，需要转化为jq对象
+                //根据选中的checkbox向上找当前行的ul标签，取到自定义的属性cart_id
+                var id = $(v).siblings().val();
+                if(id > 0){
+                    //拼接
+                    ids += id + ',';
+                }
+            });
+            ids = ids.slice(0, -1);
+            // window.location.href='__CONTROLLER__/create_menu?ids='+ids;
+            $.ajax({
+                'url':'__CONTROLLER__/create_menu',
+                'type':'get',
+                'data':{'ids':ids},
+                'dataType':'json',
+                'success':function(response){
+                    console.log(response);
+                    // return false;
+                    if(response == 0){
+                        layer.msg('已成功生成菜单',{time:1400},function(){
+                            window.location.reload();
+                        });
+                        return;
+                    }else{
+                        layer.msg('生成菜单失败,错误代码:'+response);
+                        return;
+                    }
+                }
+            });
+           
+        })
+    })
+    function del(id){
+        layer.confirm("确认要删除吗，删除后不能恢复", { title: "删除确认" }, function (index) {  
+                layer.close(index);  
+               $.ajax({
+                'url':'__CONTROLLER__/menu_del',
+                'type':'get',
+                'data':{'id':id},
+                'dataType':'json',
+                'success':function(data){
+                    if(data['status'] == 1){
+                        layer.msg(data.msg,{time:1400},function(){
+                                      window.location.href='__CONTROLLER__/menu_list';
+                                   });
+                        return;
+                    }else{
+                         layer.msg(data.msg,{time:1400});
+                        return;
+                    }
+                }
+            });
+            });   
+
+    }
+    
+</script>
+
+
+</html>

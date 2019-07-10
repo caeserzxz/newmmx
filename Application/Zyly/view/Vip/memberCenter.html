@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>会员中心</title>
+    <link href="__PUBLIC__/Zyly/css/swiper-3.4.0.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/media.css">
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/memberCenter.css">
+    <script src="__PUBLIC__/Zyly/js/jquery-2.2.2.min.js" ></script>
+    <script src="__PUBLIC__/Zyly/js/swiper-3.4.0.min.js"></script>
+    <script src="__PUBLIC__/Zyly/js/layer-v3.1.1/layer/layer.js"></script>
+</head>
+
+<body>
+    <div class="memberCenter">
+        <div class="topBox">
+            <div class="exmIcon">
+                <i class="detail"></i>
+            </div>
+            <div class="headBox">
+                <img src="{$users.photo}" alt="">
+            </div>
+            <div class="nameBox">
+                <span>{$users.uname}</span>
+            </div>
+
+            <div class="levBox">
+                <div class="levItem">
+                    <if condition="$users['level_id'] eq 0">
+                        <img src="__PUBLIC__/Zyly/images/sijiaox1@2x.png" alt="">
+                    <else />
+                        <img src="__PUBLIC__/Zyly/images/sijiaox@2x.png" alt="">
+                    </if>
+                    <span>免费会员</span>
+                </div>
+                <div class="levItem">
+                    <if condition="$users['level_id'] eq 1">
+                        <img src="__PUBLIC__/Zyly/images/wujiaox1@2x.png" alt="">
+                    <else />
+                        <img src="__PUBLIC__/Zyly/images/wujiaox@2x.png" alt="">
+                    </if>
+                    <span>黄金会员</span>
+                </div>
+                <div class="levItem">
+                    <if condition="$users['level_id'] eq 2">
+                        <img src="__PUBLIC__/Zyly/images/liujiaox1@2x.png" alt="">
+                    <else />
+                        <img src="__PUBLIC__/Zyly/images/liujiaox@2x.png" alt="">
+                    </if>
+                    <span>白金会员</span>
+                </div>
+                <div class="levItem">
+                    <if condition="$users['level_id'] eq 3">
+                        <img src="__PUBLIC__/Zyly/images/zuans1@2x.png" alt="">
+                    <else />
+                        <img src="__PUBLIC__/Zyly/images/zuans222@2x.png" alt="">
+                    </if>
+                    <span>钻石会员</span>
+                </div>
+                <div class="sbBtn" >
+                    <span>会员介绍</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="botBox">
+            <div class="botBox-tit">
+                <p>我的特权</p>
+            </div>
+            <div class="tqBox">
+                <!-- <div class="tqBoxItem">
+                    <img src="__PUBLIC__/Zyly/images/byfy@2x.png" alt="">
+                    <span>白银分佣</span>
+                </div> -->
+                <div class="tqBoxItem" id="tqBoxItem">
+                    <img src="__PUBLIC__/Zyly/images/hjfy@2x.png" alt="">
+                    <if condition="$users['level_id'] eq 0">
+                        <span>暂无分佣</span>  
+                    <elseif condition="$users['level_id'] eq 1"/>
+                        <span>黄金分佣</span>   
+                    <elseif condition="$users['level_id'] eq 2" />
+                        <span>白金分佣</span>
+                    <elseif condition="$users['level_id'] eq 3" />
+                        <span>钻石分佣</span>
+                    </if>
+                </div>
+                <div class="tqBoxItem" onclick="one_into(2);">
+                    <img src="__PUBLIC__/Zyly/images/wujiaox1@2x.png" alt="">
+                    <span>黄金商城</span>
+                </div>
+                <div class="tqBoxItem" onclick="two_into(3);">
+                    <img src="__PUBLIC__/Zyly/images/liujiaox1@2x.png" alt="">
+                    <span>白金商城</span>
+                </div>
+                <div class="tqBoxItem" onclick="three_into(4);">
+                    <img src="__PUBLIC__/Zyly/images/zuans1@2x.png" alt="">
+                    <span>钻石商城</span>
+                </div>
+                <div class="tqBoxItem" onclick="jifen(5);">
+                    <img src="__PUBLIC__/Zyly/images/hytj@2x.png" alt="">
+                    <span>积分商城</span>
+                </div>
+                <div class="tqBoxItem no">
+                    <img src="__PUBLIC__/Zyly/images/tejia@2x.png" alt="">
+                    <span>会员特价</span>
+                </div>
+                <div class="tqBoxItem no">
+                    <img src="__PUBLIC__/Zyly/images/pingjia2@2x.png" alt="">
+                    <span>评价奖励</span>
+                </div>
+                <div class="tqBoxItem no">
+                    <img src="__PUBLIC__/Zyly/images/qiandao@2x.png" alt="">
+                    <span>签到奖励</span>
+                </div>
+                <div class="tqBoxItem no">
+                    <img src="__PUBLIC__/Zyly/images/shengri@2x.png" alt="">
+                    <span>生日礼包</span>
+                </div>
+                <div class="tqBoxItem no">
+                    <img src="__PUBLIC__/Zyly/images/huodong@2x.png" alt="">
+                    <span>专享活动</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mark"></div>
+    
+    <div class="hideBox">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <i class="closeIcon"></i>
+                    <img src="__PUBLIC__/Zyly/images/zxhd@2x.png" alt="">
+                    <div class="itemName">
+                        <span>黄金分佣</span>
+                    </div>
+                    <p>每周收入封顶{$gold.level_max_price}</p>
+                </div>
+                <div class="swiper-slide">
+                    <i class="closeIcon"></i>
+                    <img src="__PUBLIC__/Zyly/images/zxhd@2x.png" alt="">
+                    <div class="itemName">
+                        <span>白金分佣</span>
+                    </div>
+                    <p>每周收入封顶{$plat.level_max_price}</p>
+                </div>
+                <div class="swiper-slide">
+                    <i class="closeIcon"></i>
+                    <img src="__PUBLIC__/Zyly/images/zxhd@2x.png" alt="">
+                    <div class="itemName">
+                        <span>钻石分佣</span>
+                    </div>
+                    <p>每周收入封顶{$daim.level_max_price}</p>
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+ <!-- 底部导航 -->
+ <include file="$nav" />
+
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            // 如果需要分页器
+            pagination: '.swiper-pagination',
+        })
+    </script>
+</body>
+<script>
+var levels = '{$users.levels}';
+    $(function () {
+        $(".hideBox").hide();
+        $(".closeIcon").click(function () {
+            $(".mark").hide();
+            $(".hideBox").hide();
+        });
+        $("#tqBoxItem").click(function () {
+            $(".mark").show();
+            $(".hideBox").show();
+        });
+        $('.no').click(function(){
+            layer.msg('敬请期待',{time:1500});
+            return;
+        })
+        $('.sbBtn').click(function(){
+            location.href='{:U("Vip/vip_introduction")}';
+        })
+        $('.detail').click(function(){
+            location.href='{:U("Vip/vip_introduction")}';
+        })
+    });
+
+    //黄金商城
+    function one_into(shop_type){
+        if(levels<1||levels=='putong'){
+            layer.msg('您不是黄金会员');
+        }else{
+            location.href='{:U("Goods/index","shop_type=2")}';
+        }
+    }
+    //白金商城
+    function two_into(shop_type){
+        if(levels<2||levels=='putong'){
+            layer.msg('您不是白金会员');
+        }else{
+            location.href='{:U("Goods/index","shop_type=3")}';
+        }
+    }
+    //钻石商城
+    function three_into(shop_type){
+        if(levels<3||levels=='putong'){
+            layer.msg('您不是钻石会员');
+        }else{
+            location.href='{:U("Goods/index","shop_type=4")}';
+        }
+    }
+    //积分商城
+    function jifen(shop_type){
+        if(levels<1||levels=='putong'){
+            layer.msg('您不是黄金会员');
+        }else{
+            location.href='{:U("Goods/index","shop_type=5")}';
+        }
+    }
+</script>
+</html>

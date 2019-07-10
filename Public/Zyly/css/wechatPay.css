@@ -1,0 +1,102 @@
+/* 清除默认样式 */
+body,
+span,
+div,
+dl,
+dt,
+dd,
+ul,
+li,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+section,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    background: #f4f4f4;
+    font-family: "微软雅黑";
+    overflow-x: hidden;
+}
+.one {
+    font-size: 0.53333333rem;
+    color: #333333;
+    text-align: center;
+    margin-top: 0.53333333rem;
+}
+.two {
+    font-size: 0.8rem;
+    color: #333333;
+    text-align: center;
+    margin-top: 0.13333333rem;
+}
+.three {
+    width: 100%;
+    height: 1.17333333rem;
+    background: #ffffff;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    margin-top: 0.93333333rem;
+    line-height: 1.17333333rem;
+    margin-bottom: 1.33333333rem;
+}
+.three .left {
+    font-size: 0.45333333rem;
+    color: #999999;
+    float: left;
+    margin-left: 0.32rem;
+}
+.three .right {
+    font-size: 0.45333333rem;
+    color: #333333;
+    float: right;
+    margin-right: 0.4rem;
+}
+.btn {
+    width: 9.33333333rem;
+    height: 1.17333333rem;
+    background: #1aad19;
+    color: #ffffff;
+    font-size: 0.45333333rem;
+    margin-left: 0.33333333rem;
+    border-radius: 0.08rem;
+}
+.box {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.four {
+    width: 4rem;
+    height: 1.33333333rem;
+    font-size: 0.53333333rem;
+    color: #333333;
+    text-align: center;
+    background: #ffffff;
+    line-height: 1.33333333rem;
+    margin: 8rem auto 0;
+}

@@ -1,0 +1,475 @@
+[ 2018-12-05T18:59:53+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0160s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+
+[ 2018-12-05T19:00:02+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.027001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.027001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024001s ]
+
+[ 2018-12-05T19:00:02+08:00 ] 127.0.0.1 /zyly/goods/css/base.css
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+NOTIC: [2] session_destroy(): Session object destruction failed E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 47 行.
+ERR: 非法操作:css
+
+[ 2018-12-05T19:00:02+08:00 ] 127.0.0.1 /zyly/goods/image/step3.png
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-05T19:00:02+08:00 ] 127.0.0.1 /zyly/goods/css/media.css
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+ERR: 非法操作:css
+
+[ 2018-12-05T19:00:03+08:00 ] 127.0.0.1 /zyly/goods/image/head.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-05T19:00:03+08:00 ] 127.0.0.1 /zyly/goods/css/share.css
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+ERR: 非法操作:css
+
+[ 2018-12-05T19:00:03+08:00 ] 127.0.0.1 /zyly/goods/image/step2.png
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-05T19:00:03+08:00 ] 127.0.0.1 /zyly/goods/image/erweima.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-05T19:00:47+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-05T19:14:53+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: share_img_url E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 409 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 623 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [8] Undefined index: ticket E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 597 行.
+NOTIC: [8] Undefined index: ticket E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 598 行.
+NOTIC: [8] Undefined index: expire_seconds E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 599 行.
+ERR: 1146:Table 'tour.lr_ewei_shop_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lr_ewei_shop_member`
+ERR: 1146:Table 'tour.lr_ewei_shop_member' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lr_ewei_shop_member`
+
+[ 2018-12-05T19:15:13+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-12-05T19:17:14+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 623 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [8] Undefined index: ticket E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 597 行.
+NOTIC: [8] Undefined index: ticket E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 598 行.
+NOTIC: [8] Undefined index: expire_seconds E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 599 行.
+
+[ 2018-12-05T19:17:37+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-12-05T19:18:29+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-12-05T19:18:30+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-12-05T19:18:41+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 627 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 629 行.
+
+[ 2018-12-05T19:19:05+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 627 行.
+
+[ 2018-12-05T19:19:06+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 627 行.
+
+[ 2018-12-05T19:19:08+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 627 行.
+
+[ 2018-12-05T19:21:16+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-12-05T19:31:34+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-12-05T19:31:54+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-12-05T19:38:21+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-12-05T19:42:35+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-05T19:43:04+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-05T19:51:07+08:00 ] 127.0.0.1 /zyly/goods/share
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

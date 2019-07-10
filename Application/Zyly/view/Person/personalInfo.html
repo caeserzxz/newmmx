@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人信息</title>
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/media.css">
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/personalInfo.css">
+    <script src="__PUBLIC__/Zyly/js/jquery-2.2.2.min.js"></script>
+    <script src="__PUBLIC__/Zyly/js/layer-v3.1.1/layer/layer.js"></script>
+</head>
+
+<body>
+    <div class="personalInfo">
+        <div class="personalInfo-top">
+            <img src="{$users.photo}" alt="">
+        </div>
+        <form id="form">
+            <div class="personalInfo-itemBox">
+                <!-- <div class="itemBox-userID">
+                    <span>用户ID</span>
+                    <input type="text" name="" id="">
+                </div> -->
+                <div class="itemBox-userName">
+                    <span>昵称</span>
+                    <input type="text" name="uname" placeHolder="请输入昵称" disabled id="uname" value="{$users.uname}">
+                </div>
+                <div class="itemBox-userSignature">
+                    <span>姓名</span>
+                    <input type="text" name="real_name" placeHolder="请输入真实姓名" id="real_name" value="{$users.real_name}">
+                </div>
+                <!-- <div class="itemBox-userGender">
+                    <span>性别</span>
+                    <div class="radioBox">
+                        <input type="radio" name="xb" id="">男
+                        <input type="radio" name="xb" id="">女
+                    </div>
+
+                </div> -->
+                <div class="itemBox-userBirthday">
+                    <span>手机号码</span>
+                    <input type="text" name="phone" id="phone" placeHolder="请输入手机号" value="{$users.phone}">
+                </div>
+                <div class="itemBox-userCity">
+                    <span>地址</span>
+                    <input type="text" name="postal_address" placeHolder="请输入通讯地址" id="postal_address" value="{$users.postal_address}">
+                </div>
+                <div class="itemBox-userCity">
+                    <span>开户行</span>
+                    <input type="text" name="bank_name" placeHolder="请输入开户行名称" id="bank_name" value="{$users.bank_name}">
+                </div>
+                <div class="itemBox-userCity">
+                    <span>银行卡号</span>
+                    <input type="text" name="banks"  placeHolder="请输入银行卡号" id="banks" value="{$users.banks}">
+                </div>
+                <div class="tijiao">
+                    <button type="button" onclick="sub();">提交</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script>
+    function sub(){
+
+        var uname=$('input[name=uname]').val();
+        var real_name=$('input[name=real_name]').val();
+        var phone=$('input[name=phone]').val();
+        var postal_address=$('input[name=postal_address]').val();
+        var bank_name = $('input[name=bank_name]').val();
+        var banks = $('input[name=banks]').val();
+
+        if(uname==''||uname==null){
+                layer.msg('请填写昵称', {icon: 1}); 
+                return false;
+        }else if(real_name==''||real_name==null){
+                layer.msg('请填写真实姓名', {icon: 1}); 
+                return false;
+        }else if(phone==''||phone==null){
+                layer.msg('请填写正确手机号', {icon: 1}); 
+                return false;
+        }else if(postal_address==''||postal_address==null){
+            layer.msg('请填写通讯地址', {icon: 1}); 
+            return false;
+        }
+        $.ajax({ 
+            'url':'__CONTROLLER__/personalInfo',
+            'type':'post',
+            'data':{'real_name':real_name,'phone':phone,'postal_address':postal_address,'bank_name':bank_name,'banks':banks},
+            'dataType':'json',
+            'success':function(data){
+                if(data.status == 1){
+                    layer.msg(data.msg, {icon: 1},function(){
+                        location.href='{:U("Person/person")}';
+                    });
+                }else{
+                    layer.msg(data.msg, {icon: 1}); 
+                }
+                
+            }
+        });
+
+    }
+
+</script>
+</html>

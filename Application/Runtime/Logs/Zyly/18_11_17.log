@@ -1,0 +1,455 @@
+[ 2018-11-17T13:54:58+08:00 ] 127.0.0.1 /index.php/Zyly/Goods
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0270s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` WHERE `del` = 0 ORDER BY price asc  [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lr_notice` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `lr_notice` WHERE `is_nav` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 623 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 623 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [8] Undefined index: ticket E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 560 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 623 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 623 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [8] Undefined index: ticket E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 560 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2018-11-17T13:55:02+08:00 ] 127.0.0.1 /index.php/Zyly/Vip/memberCenter
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lr_level` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-17T13:55:03+08:00 ] 127.0.0.1 /index.php/Zyly/Vip/vip_introduction.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_level` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-17T13:55:05+08:00 ] 127.0.0.1 /index.php/Zyly/Vip/memberCenter
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_level` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-17T13:55:06+08:00 ] 127.0.0.1 /index.php/Zyly/Vip/vip_introduction.html
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_level` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-17T13:55:08+08:00 ] 127.0.0.1 /index.php/Zyly/Vip/memberCenter
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lr_level` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-17T14:08:21+08:00 ] 127.0.0.1 /index.php/Zyly/Vip/memberCenter
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_level` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-11-17T15:21:57+08:00 ] 127.0.0.1 /index.php/Zyly/Vip/memberCenter
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_level` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2018-11-17T15:54:51+08:00 ] 127.0.0.1 /index.php/Zyly/Vip/memberCenter
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lr_level` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_level` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2018-11-17T18:01:44+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` WHERE `del` = 0 ORDER BY price asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `lr_notice` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lr_notice` WHERE `is_nav` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 623 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 623 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [8] Undefined index: ticket E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 560 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 623 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 623 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [8] Undefined index: ticket E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 560 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2018-11-17T18:01:47+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?goods_id=288
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`photo_d`,`sort`,`shiyong`,`price`,`photo_string`,`content` FROM `lr_product` WHERE `id` = 288 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.name,b.concent,b.addtime,c.uname,c.photo FROM lr_product a LEFT JOIN lr_product_dp b on a.id=b.pid LEFT JOIN lr_user c on b.uid=c.id  WHERE a.id = '288'  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `lr_product_dp` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lr_product_dp` WHERE `pid` = 288 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 623 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 623 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [8] Undefined index: ticket E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 560 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 623 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 623 行.
+NOTIC: [2] unlink(./Application/Runtime/Temp/access_tokena0435375b666ac71aca0e45ef0012d41.php): No such file or directory E:\www\tour\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 625 行.
+NOTIC: [8] Undefined index: ticket E:\www\tour\Application\Zyly\Model\IndexModel.class.php 第 560 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-17T18:01:50+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/writeOrder.html?goods_id=288&buy_num=1
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 33 行.
+NOTIC: [8] Undefined offset: 1 E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 40 行.
+SQL: SHOW COLUMNS FROM `lr_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`photo_x`,`price` FROM `lr_product` WHERE `id` = 288 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_address` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lr_address` WHERE `uid` = 1 AND `is_default` = 1 LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name E:\www\tour\Application\Runtime\Cache\Zyly\ef4b14f71bc8c73bec77c45dc7f2b599.php 第 19 行.
+NOTIC: [8] Undefined index: tel E:\www\tour\Application\Runtime\Cache\Zyly\ef4b14f71bc8c73bec77c45dc7f2b599.php 第 20 行.
+NOTIC: [8] Undefined index: address_xq E:\www\tour\Application\Runtime\Cache\Zyly\ef4b14f71bc8c73bec77c45dc7f2b599.php 第 24 行.
+NOTIC: [8] Undefined index: address E:\www\tour\Application\Runtime\Cache\Zyly\ef4b14f71bc8c73bec77c45dc7f2b599.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-17T18:01:52+08:00 ] 127.0.0.1 /index.php/Zyly/Address/selectConsignee.html?uid=1&goods_id=288&buy_num=1
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\AddressController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `lr_address` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_address` WHERE `uid` = 1 ORDER BY is_default desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-11-17T18:01:53+08:00 ] 127.0.0.1 /index.php/Zyly/Address/edit_address.html?id=27&type=1&goods_id=288&buy_num=1
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `lr_wechat_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `lr_wechat_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\AddressController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `lr_address` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_address` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

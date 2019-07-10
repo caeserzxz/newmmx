@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "PingFang SC";
+}
+ul li {
+  list-style: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+}
+.line {
+  height: .2rem;
+  background: #eee;
+}
+.load {
+  height: 1.46rem;
+  background: #eee;
+  margin-bottom: 1.1rem;
+}
+.load .span-c3 {
+  font-size: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.load .span-c3 span {
+  display: inline-block;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 50%;
+  margin-top: .3rem;
+}
+.load .span-c3 span:nth-child(1) {
+  background: #ffcc41;
+}
+.load .span-c3 span:nth-child(2) {
+  background: #fff;
+}
+.load p {
+  font-size: .24rem;
+  text-align: center;
+  color: #999;
+  padding-top: 0.2rem;
+}
+.span-c3 span:nth-child(1) {
+  animation: loader1 1s linear infinite;
+}
+.span-c3 span:nth-child(2) {
+  animation: loader2 1s linear infinite;
+}
+@keyframes loader1 {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(0.4rem);
+  }
+}
+@keyframes loader2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-0.4rem);
+  }
+}
+body {
+  background: #eee;
+}
+.writeOrder .writeOrder-userInfo {
+  box-sizing: border-box;
+  padding: 0 .3rem;
+  height: 1.8rem;
+  position: relative;
+  background: #fff;
+}
+.writeOrder .writeOrder-userInfo .userInfo-top {
+  font-size: .32rem;
+  color: #333333;
+  box-sizing: border-box;
+  padding-top: .2rem;
+}
+.writeOrder .writeOrder-userInfo .userInfo-top .userInfoName {
+  font-size: .32rem;
+}
+.writeOrder .writeOrder-userInfo .userInfo-top .userInfoPhone {
+  margin-left: .5rem;
+}
+.writeOrder .writeOrder-userInfo .userInfo-address {
+  vertical-align: middle;
+  margin-top: .2rem;
+}
+.writeOrder .writeOrder-userInfo .userInfo-address img {
+  width: .16rem;
+  height: .22rem;
+  vertical-align: middle;
+}
+.writeOrder .writeOrder-userInfo .userInfo-address span {
+  vertical-align: middle;
+  color: #333333;
+  font-size: .24rem;
+}
+.writeOrder .writeOrder-userInfo .userInfo-subAddress {
+  margin-top: .04rem;
+}
+.writeOrder .writeOrder-userInfo .userInfo-subAddress span {
+  padding-left: .2rem;
+  color: #333333;
+}
+.writeOrder .writeOrder-userInfo .defaultBtn {
+  position: absolute;
+  top: .2rem;
+  right: 2.2rem;
+}
+.writeOrder .writeOrder-userInfo .defaultBtn span {
+  display: inline-block;
+  /* width: .8rem; */
+  height: .38rem;
+  text-align: center;
+  line-height: .38rem;
+  border: solid 1px #ffa847;
+  color: #ffa847;
+  border-radius: .1rem;
+  padding: .0rem .06rem;
+}
+.writeOrder .writeOrder-userInfo .rightBtn {
+  position: absolute;
+  top: 0.7rem;
+  right: .3rem;
+}
+.writeOrder .writeOrder-userInfo .rightBtn img {
+  width: .16rem;
+  height: .3rem;
+}
+.writeOrder .goodsInfo {
+  background: #fff;
+}
+.writeOrder .goodsInfo .goodsInfo-tit {
+  height: .64rem;
+  line-height: .64rem;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+  border-bottom: .01rem solid #eee;
+}
+.writeOrder .goodsInfo .goodsInfo-cont .orderItem {
+  display: flex;
+  box-sizing: border-box;
+  padding: .2rem .3rem;
+  border-bottom: .01rem solid #eee;
+}
+.writeOrder .goodsInfo .goodsInfo-cont .orderItem .goodsInfo-cont-left img {
+  width: 1.9rem;
+  height: 1.9rem;
+}
+.writeOrder .goodsInfo .goodsInfo-cont .orderItem .goodsInfo-cont-right {
+  width: 5.6rem;
+  padding: 0 .3rem;
+  position: relative;
+}
+.writeOrder .goodsInfo .goodsInfo-cont .orderItem .goodsInfo-cont-right .rightBox-goodsName {
+  font-size: .28rem;
+  color: #333333;
+  height: 1rem;
+  box-sizing: border-box;
+  padding: .1rem 0 ;
+  max-width: 4rem;
+}
+.writeOrder .goodsInfo .goodsInfo-cont .orderItem .goodsInfo-cont-right .rightBox-subGoodsDetail {
+  font-size: .24rem;
+  color: #999;
+}
+.writeOrder .goodsInfo .goodsInfo-cont .orderItem .goodsInfo-cont-right .rightBox-price {
+  color: #ff343e;
+  margin-top: .1rem;
+}
+.writeOrder .goodsInfo .goodsInfo-cont .orderItem .goodsInfo-cont-right .rightBox-price .fuhao {
+  font-size: .22rem;
+}
+.writeOrder .goodsInfo .goodsInfo-cont .orderItem .goodsInfo-cont-right .rightBox-price span {
+  font-size: .32rem;
+}
+.writeOrder .goodsInfo .goodsInfo-cont .orderItem .goodsInfo-cont-right .rightBox-count {
+  position: absolute;
+  top: .12rem;
+  right: 0rem;
+}
+.writeOrder .goodsInfo .goodsInfo-cont .orderItem .goodsInfo-cont-right .rightBox-count span {
+  font-size: .24rem;
+  color: #1abc9c;
+}
+.writeOrder .moneyBox {
+  background: #fff;
+}
+.writeOrder .moneyBox > div {
+  font-size: .28rem;
+  height: .74rem;
+  line-height: .74rem;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  box-sizing: border-box;
+  padding: 0 .3rem;
+  border-bottom: .01rem solid #eee;
+}
+.writeOrder .moneyBox .fare div span:nth-child(1) {
+  display: inline-block;
+  width: 1.62rem;
+  font-size: .24rem;
+  text-align: center;
+  color: #ffa847;
+  height: .36rem;
+  line-height: .36rem;
+  background: url("../images/kuangkuang@2x.png") no-repeat center;
+  background-size: 1.62rem .36rem;
+}
+.writeOrder .writeOrder-bottom {
+  width: 7.5rem;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+}
+.writeOrder .writeOrder-bottom .writeOrder-bottom-left {
+  width: 5.5rem;
+  height: .98rem;
+  line-height: .98rem;
+  font-size: .28rem;
+  box-sizing: border-box;
+  padding-left: .3rem;
+}
+.writeOrder .writeOrder-bottom .writeOrder-bottom-left span:nth-child(1) {
+  color: #333;
+}
+.writeOrder .writeOrder-bottom .writeOrder-bottom-left span:nth-child(2) {
+  color: #ff343e;
+}
+.writeOrder .writeOrder-bottom .writeOrder-bottom-right {
+  width: 2rem;
+  height: .98rem;
+  line-height: .98rem;
+  text-align: center;
+  color: #fff;
+  font-size: .32rem;
+  background-color: #2ac1a3;
+}
+/* alert */
+.alert {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999999;
+}
+.alert .alert-in {
+  width: 5.7rem;
+  height: 6.5rem;
+  background: #ffffff;
+  margin: 4.8rem auto 0;
+  border-radius: 0.13333333rem;
+  margin-top: 2.3rem;
+}
+.alert .alert-in .no {
+  width: 100%;
+    height: 1.33333333rem;
+    line-height: 1.33333333rem;
+    border-bottom: 1px solid #cccccc;
+    font-size: 0.4rem;
+    color: #fd3b77;
+}
+.alert .alert-in .no img {
+  width: 0.4rem;
+  height: 0.4rem;
+  float: left;
+  margin-left: 0.4rem;
+  margin-top: 0.46666667rem;
+  margin-right: 1.33333333rem;
+}
+.alert .alert-in .pay {
+  width: 100%;
+    height: 1.8rem;
+    border-bottom: 1px solid #cccccc;
+    overflow: hidden;
+}
+.alert .alert-in .pay p {
+  font-size: 0.4rem;
+  color: #333333;
+  text-align: center;
+  margin-top: 0.23333333rem;
+}
+.alert .alert-in .pay div {
+  font-size: 0.64rem;
+  color: #333333;
+  text-align: center;
+  font-weight: bold;
+}
+.alert .alert-in .we {
+  width: 100%;
+    height: 1.33333333rem;
+    border-bottom: 1px solid #cccccc;
+    font-size: 0.4rem;
+    color: #333333;
+    line-height: 1.33333333rem;
+}
+.alert .alert-in .we span {
+  float: right;
+}
+.alert .alert-in .we .we1 {
+  width: 0.68rem;
+  height: 0.68rem;
+  float: left;
+  border-radius: 0.13333333rem;
+  margin: 0.33rem 0 0 0.42666667rem;
+}
+.alert .alert-in .we .we2 {
+  width: 0.17333333rem;
+  height: 0.30666667rem;
+  float: right;
+  border-radius: 0.13333333rem;
+  margin: 0.5rem 0.42666667rem 0 0.4rem;
+}
+.alert .alert-in .button {
+  width: 4rem;
+    height: 1.06666667rem;
+    border-radius: 0.13333333rem;
+    text-align: center;
+    line-height: 1.06666667rem;
+    font-size: 0.4rem;
+    background: #fd3b77;
+    color: #ffffff;
+    margin: 0.4rem auto 0;
+}

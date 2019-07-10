@@ -1,0 +1,59 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>常见问题</title>
+    <link rel="stylesheet" href="/Public/Zyly/css/media.css">
+    <link rel="stylesheet" href="/Public/Zyly/css/commonProblem.css">
+</head>
+
+<body>
+    <div class="commonProblem">
+        <div class="commonProblem-item">
+            <div class="commonProblem-item-Q">
+                &nbsp;&nbsp;&nbsp;规则说明:
+            </div>
+            <div class="commonProblem-item-A">
+                &nbsp;&nbsp;&nbsp;推荐A套餐多少奖励，推荐B套餐多少奖励推荐A套餐多少奖励，推荐B套餐多少奖励推荐A套餐多少奖励，推荐B套餐多少奖励
+            </div>
+        </div>
+        <div class="commonProblem-item">
+            <div class="commonProblem-item-Q">
+                &nbsp;&nbsp;&nbsp;规则说明:
+            </div>
+            <div class="commonProblem-item-A">
+                &nbsp;&nbsp;&nbsp;推荐A套餐多少奖励，推荐B套餐多少奖励推荐A套餐多少奖励，推荐B套餐多少奖励推荐A套餐多少奖励，推荐B套餐多少奖励
+            </div>
+        </div>
+        <div class="commonProblem-item">
+            <div class="commonProblem-item-Q">
+                &nbsp;&nbsp;&nbsp;规则说明:
+            </div>
+            <div class="commonProblem-item-A">
+                &nbsp;&nbsp;&nbsp;推荐A套餐多少奖励，推荐B套餐多少奖励推荐A套餐多少奖励，推荐B套餐多少奖励推荐A套餐多少奖励，推荐B套餐多少奖励
+            </div>
+        </div>
+        <div class="commonProblem-item">
+            <div class="commonProblem-item-Q">
+                &nbsp;&nbsp;&nbsp;规则说明:
+            </div>
+            <div class="commonProblem-item-A">
+                &nbsp;&nbsp;&nbsp;推荐A套餐多少奖励，推荐B套餐多少奖励推荐A套餐多少奖励，推荐B套餐多少奖励推荐A套餐多少奖励，推荐B套餐多少奖励
+            </div>
+        </div>
+        <div class="commonProblem-item">
+            <div class="commonProblem-item-Q">
+                &nbsp;&nbsp;&nbsp;规则说明:
+            </div>
+            <div class="commonProblem-item-A">
+                &nbsp;&nbsp;&nbsp;推荐A套餐多少奖励，推荐B套餐多少奖励推荐A套餐多少奖励，推荐B套餐多少奖励推荐A套餐多少奖励，推荐B套餐多少奖励
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

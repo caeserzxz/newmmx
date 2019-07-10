@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "PingFang SC";
+}
+ul li {
+  list-style: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+}
+.line {
+  height: .2rem;
+  background: #eee;
+}
+.load {
+  height: 1.46rem;
+  background: #eee;
+  margin-bottom: 1.1rem;
+}
+.load .span-c3 {
+  font-size: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.load .span-c3 span {
+  display: inline-block;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 50%;
+  margin-top: .3rem;
+}
+.load .span-c3 span:nth-child(1) {
+  background: #ffcc41;
+}
+.load .span-c3 span:nth-child(2) {
+  background: #fff;
+}
+.load p {
+  font-size: .24rem;
+  text-align: center;
+  color: #999;
+  padding-top: 0.2rem;
+}
+.span-c3 span:nth-child(1) {
+  animation: loader1 1s linear infinite;
+}
+.span-c3 span:nth-child(2) {
+  animation: loader2 1s linear infinite;
+}
+@keyframes loader1 {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(0.4rem);
+  }
+}
+@keyframes loader2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-0.4rem);
+  }
+}
+.VIPIntroduction .VIPItem1 {
+  box-sizing: border-box;
+  padding: 0 .3rem;
+  margin-top: .2rem;
+}
+.VIPIntroduction .VIPItem1 .VIPItem1-tit {
+  font-size: .28rem;
+  color: #555555;
+  line-height: 36px;
+  font-weight: 900;
+  letter-spacing: 0.01rem;
+}
+.VIPIntroduction .VIPItem1 .VIPItem1-cont {
+  line-height: .36rem;
+  font-size: .24rem;
+  letter-spacing: .01rem;
+  color: #666666;
+  margin: .1rem 0;
+}
+.VIPIntroduction .VIPItem2 {
+  box-sizing: border-box;
+  margin-top: .2rem;
+}
+.VIPIntroduction .VIPItem2 .VIPItem2-tit {
+  padding: 0 .3rem;
+  font-size: .28rem;
+  color: #555555;
+  line-height: 36px;
+  font-weight: 900;
+  letter-spacing: 0.01rem;
+}
+.VIPIntroduction .VIPItem2 .VIPItem2-cont {
+  display: flex;
+  text-align: center;
+  margin: .1rem 0;
+}
+.VIPIntroduction .VIPItem2 .VIPItem2-cont .VIPItem2Box {
+  margin-left: .28rem;
+  width: 1.5rem;
+  height: 2.22rem;
+  border: .01rem solid #d7d7d7;
+}
+.VIPIntroduction .VIPItem2 .VIPItem2-cont .VIPItem2Box img {
+  width: .66rem;
+  height: .66rem;
+  display: block;
+  margin: .4rem auto;
+}
+.VIPIntroduction .VIPItem2 .VIPItem2-cont .VIPItem2Box p {
+  line-height: .36rem;
+  font-size: .24rem;
+  color: #666;
+}
+.VIPIntroduction .VIPItem3 {
+  box-sizing: border-box;
+  margin-top: .2rem;
+  padding: 0 .3rem;
+}
+.VIPIntroduction .VIPItem3 .VIPItem3-tit {
+  font-size: .28rem;
+  color: #555555;
+  line-height: 36px;
+  font-weight: 900;
+  letter-spacing: 0.01rem;
+}
+.VIPIntroduction .VIPItem3 .VIPItem3-cont {
+  margin: .1rem 0;
+}
+.VIPIntroduction .VIPItem3 .VIPItem3-cont .VIPItem3Table {
+  font-size: .24rem;
+  color: #666;
+  border: .01rem solid #d7d7d7;
+}
+.VIPIntroduction .VIPItem3 .VIPItem3-cont .VIPItem3Table .VIPItem3-cont-top {
+  display: flex;
+  border-bottom: .01rem solid #d7d7d7;
+}
+.VIPIntroduction .VIPItem3 .VIPItem3-cont .VIPItem3Table .VIPItem3-cont-top p {
+  width: 20%;
+  text-align: center;
+  height: .68rem;
+  line-height: .68rem;
+  border-right: .01rem solid #d7d7d7;
+}
+.VIPIntroduction .VIPItem3 .VIPItem3-cont .VIPItem3Table .VIPItem3-cont-top p:nth-child(1) {
+  width: 1.38rem;
+}
+.VIPIntroduction .VIPItem3 .VIPItem3-cont .VIPItem3Table .VIPItem3-cont-center {
+  display: flex;
+  border-bottom: .01rem solid #d7d7d7;
+}
+.VIPIntroduction .VIPItem3 .VIPItem3-cont .VIPItem3Table .VIPItem3-cont-center div {
+  width: 20%;
+  height: .98rem;
+  line-height: .98rem;
+  text-align: center;
+  border-right: .01rem solid #d7d7d7;
+}
+.VIPIntroduction .VIPItem3 .VIPItem3-cont .VIPItem3Table .VIPItem3-cont-center div img {
+  display: block;
+  margin: .16rem auto;
+  width: .66rem;
+  height: .66rem;
+}
+.VIPIntroduction .VIPItem3 .VIPItem3-cont .VIPItem3Table .VIPItem3-cont-center div:nth-child(1) {
+  width: 1.38rem;
+}
+.VIPIntroduction .VIPItem3 .VIPItem3-cont .VIPItem3Table .VIPItem3-cont-bottom {
+  display: flex;
+}
+.VIPIntroduction .VIPItem3 .VIPItem3-cont .VIPItem3Table .VIPItem3-cont-bottom p {
+  width: 20%;
+  text-align: center;
+  height: .68rem;
+  line-height: .68rem;
+  border-right: .01rem solid #d7d7d7;
+}
+.VIPIntroduction .VIPItem3 .VIPItem3-cont .VIPItem3Table .VIPItem3-cont-bottom p:nth-child(1) {
+  width: 1.38rem;
+}
+ .bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 7.5rem;
+  height: 1rem;
+  border-top: .01rem solid #eee;
+  border-bottom: .01rem solid #eee;
+  box-sizing: border-box;
+  z-index: 99;
+  background: #fff;
+}
+ .bottom .bottom-navItem {
+  width: 25%;
+  height: 1rem;
+  text-align: center;
+  font-size: 0;
+  float: left;
+}
+ .bottom .bottom-navItem img {
+  width: .42rem;
+  height: .42rem;
+  display: inline-block;
+  padding-top: .12rem;
+}
+ .bottom .bottom-navItem span {
+  font-size: .28rem;
+  color: #333;
+  display: block;
+}
+ .bottom .bottom-navItem-act span {
+  color: #ff3b74;
+}

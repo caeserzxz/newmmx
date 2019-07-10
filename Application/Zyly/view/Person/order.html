@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的订单</title>
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/media.css">
+    <link rel="stylesheet" href="__PUBLIC__/Zyly/css/myOrder.css">
+    <script src="__PUBLIC__/Zyly/js/jquery-2.2.2.min.js"></script>
+    <script src="__PUBLIC__/Zyly/js/input.js"></script>
+</head>
+
+<body>
+    <div class="myOrder">
+        <div class="myOrderNav">
+            <if condition="$status eq 1">
+                <span class="stativAct" onclick="myorder(1)">全部</span>
+            <else />
+                <span onclick="myorder(1)">全部</span>
+            </if>
+            <if condition="$status eq 10">
+                <span class="stativAct" onclick="myorder(10)">待付款</span>
+            <else />
+                <span onclick="myorder(10)">待付款</span>
+            </if>
+            <if condition="$status eq 20">
+                <span class="stativAct" onclick="myorder(20)">待收货</span>
+            <else />
+                <span onclick="myorder(20)">待收货</span>
+            </if>
+            <if condition="$status eq 30">
+                <span class="stativAct" onclick="myorder(30)">已完成</span>
+            <else />
+                <span onclick="myorder(30)">已完成</span>
+            </if>
+            <!-- <if condition="$status eq 50">
+                <span class="stativAct" onclick="myorder(50)">售后服务</span>
+            <else />
+                <span onclick="myorder(50)">售后服务</span>
+            </if> -->
+        </div>
+        <div class="myOrderContItemBox">
+        <volist name="orders" id="vol">  
+            <div class="myOrderContItem">
+                <div class="myOrderContItem-tit">
+                    <div class="myOrderCont-tit-nub">
+                        <span>订单编号:{$vol.order_sn}</span>
+                    </div>
+                    <if condition="$status eq 10">
+                    <div class="myOrderCont-tit-static">
+                        等待付款
+                    </div>
+                    </if>
+                </div>
+                <div class="myOrderContItemBox">
+                    <div class="myOrderContItemBox-goodsItem">
+                        <div class="selectIcon">
+                            <lable>
+                                <i class='input_style checkbox_bg '><input name="" id="" type="checkbox"></i>
+                            </lable>
+                        </div>
+                        <div class="goodsItem-img">
+                            <img src="__DATA__/{$vol.photo_x}" alt="">
+                        </div>
+                        <div class="goodsItem-goodsInfo">
+                            <div class="rightBox-goodsName">
+                                {$vol.name}
+                            </div>
+                            <div class="rightBox-subGoodsDetail">
+                                <!-- 百搭上衣尺码：白色M -->
+                            </div>
+                            <div class="rightBox-price">
+
+                                <span class="fuhao">￥</span><span>{$vol.price}</span>
+                            </div>
+                            <div class="rightBox-count">
+                                <span>x{$vol.num}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="myOrderContItem-bottom">
+                    <div class="myOrderContItem-bottom-left">
+                        <div>应付金额&nbsp;:&nbsp;￥{$vol.amount}</div>
+                    </div>
+                    <div class="myOrderContItem-bottom-right">
+                    <!-- <if condition="$status eq 30">
+                        <span onclick="comment({$vol.id});">立即评价</span>
+                    </if> -->
+                        <!-- <span>取消订单</span> -->
+                        <if condition="$vol.status eq 10">
+                            <a href="__MODULE__/Goods/wechatPay?order_id={$vol.id}"><span>立即付款</span></a>
+                        </if>
+                    </div>
+                </div>
+            </div>  
+            </volist>
+            <!-- <div class="load">
+                <div class="span-c3">
+                    <span></span>
+                    <span></span>
+                </div>
+                <p>正在加载更多...</p>
+            </div> -->
+       
+        </div>
+        <div class="nothing">
+            <img src="__PUBLIC__/Zyly/images/dingdan@2x.png" alt="">
+            <p>暂无相关的订单记录</p>
+        </div>
+        
+    </div>
+    
+</body>
+    <script>
+        $(function () { 
+            $(".myOrderNav span").click(function () { 
+                $(this).addClass("stativAct").siblings().removeClass("stativAct");
+             });
+        });
+
+        function myorder(type){
+            // location.href='{:U("Person/order")}?status='+type;
+            console.log(type);
+            // return false;
+            $('.myOrderContItem').remove();
+            $.ajax({
+                'url':'__CONTROLLER__/order',
+                'type':'post',
+                'data':{'status':type},
+                'dataType':'json',
+                'success':function(data){
+                    console.log(data);
+                    // return false;
+                    var str ='';
+                    $.each(data, function (k, v){
+                        if(v.status == 10){
+                            var  str1 =  '<div class="myOrderContItem-bottom-left">'
+                                +                '<div>应付金额&nbsp;:&nbsp;￥'+v.amount+'</div>'
+                                +            '</div>'
+                                +            '<div class="myOrderContItem-bottom-right" data-id='+v.id+'>'
+                                +              '<a href="__MODULE__/Goods/wechatPay?order_id='+v.id+'"><span>立即付款</span></a>'
+                                +            '</div>';
+
+                        }else if(v.status == 20){
+                            var  str1 =  '<div class="myOrderContItem-bottom-left">'
+                                +                '<div>已付金额&nbsp;:&nbsp;￥'+v.amount+'</div>'
+                                +            '</div>'
+                                +            '<div class="myOrderContItem-bottom-right" data-id='+v.id+'>'
+                                +              '<a href="__MODULE__/Goods/wechatPay?order_id='+v.id+'"><span>立即收货</span></a>'
+                                +            '</div>';
+                        }else if(v.status == 30){
+                            var  str1 =  '<div class="myOrderContItem-bottom-left">'
+                                +                '<div>已付金额&nbsp;:&nbsp;￥'+v.amount+'</div>'
+                                +            '</div>'
+                                +            '<div class="myOrderContItem-bottom-right" data-id='+v.id+'>'
+                                +              '<a href="javascript:void(0)"><span>已完成</span></a>'
+                                +            '</div>';
+                        }
+                        str += '<div class="myOrderContItem">'
+                            +        '<div class="myOrderContItem-tit">'
+                            +            '<div class="myOrderCont-tit-nub">'
+                            +                '<span>订单编号:'+v.order_sn+'</span>'
+                            +            '</div>'
+                            +        '</div>'
+                            +        '<div class="myOrderContItemBox">'
+                            +            '<div class="myOrderContItemBox-goodsItem">'
+                            +                '<div class="goodsItem-img">'
+                            +                    '<img src="__DATA__/'+ v.photo_x+'" alt="">'
+                            +                '</div>'
+                            +                '<div class="goodsItem-goodsInfo">'
+                            +                    '<div class="rightBox-goodsName">'
+                            +                        v.name
+                            +                    '</div>'
+                            +                    '<div class="rightBox-subGoodsDetail">'
+                            +                    '</div>'
+                            +                    '<div class="rightBox-price">'
+                            +                        '<span class="fuhao">￥</span><span>'+v.price+'</span>'
+                            +                    '</div>'
+                            +                    '<div class="rightBox-count">'
+                            +                        '<span>x'+v.num+'</span>'
+                            +                    '</div>'
+                            +                '</div>'
+                            +            '</div>'
+                            +        '</div>'
+                            +        '<div class="myOrderContItem-bottom">'
+                            +str1
+                            +    '</div>';
+                    });
+                    // console.log(str);
+
+                    var a=$('.myOrderContItemBox').append(str);
+                    num = 0;
+                    // if(data.status==1){
+                    //     layer.msg(data.msg,{time:1500},function(){
+                    //         location.reload();
+                    //     });
+                    // }else{
+                    //     layer.msg(data.msg,{time:2000});
+                    // }
+                }
+            });
+        }
+        
+        //立即评价
+        function comment(id){
+            location.href='{:U("Person/comment")}?id='+id;
+        }
+    </script>
+</html>

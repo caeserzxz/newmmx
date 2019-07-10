@@ -1,0 +1,2466 @@
+[ 2018-09-17T09:14:39+08:00 ] 127.0.0.1 /index.php/Zyly/Person/person
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T09:14:51+08:00 ] 127.0.0.1 /index.php/Zyly/Person/person
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T10:36:38+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T10:36:44+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T10:37:02+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T10:37:33+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T10:37:43+08:00 ] 127.0.0.1 /index.php/Zyly/person/person
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T10:38:35+08:00 ] 127.0.0.1 /index.php/Zyly/person/person
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T10:38:45+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T10:40:41+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T10:40:43+08:00 ] 127.0.0.1 /index.php/Zyly/person/person
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T10:41:29+08:00 ] 127.0.0.1 /index.php/Zyly/person/person
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T10:41:36+08:00 ] 127.0.0.1 /index.php/Zyly/person/person
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T10:42:04+08:00 ] 127.0.0.1 /index.php/Zyly/person/person
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T10:42:42+08:00 ] 127.0.0.1 /index.php/Zyly/person/person
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T10:43:09+08:00 ] 127.0.0.1 /index.php/Zyly/person/person
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T10:43:10+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T15:17:57+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+
+[ 2018-09-17T15:18:23+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T15:18:37+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T15:21:47+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.026001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.026001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.227013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.227013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.037002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.037002s ]
+
+[ 2018-09-17T15:24:58+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T15:25:55+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+
+[ 2018-09-17T15:25:57+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+
+[ 2018-09-17T15:58:18+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:32:06+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.092005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0490s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: v E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+NOTIC: [8] Undefined variable: page E:\www\tour\Application\Runtime\Cache\Zyly\50ad8bd5043009e08fdabf4eb8b9ce6d.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2018-09-17T17:32:54+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:32:57+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T17:33:15+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:33:19+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T17:33:20+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=284
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:33:20+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/Public/Zyly/css/media.css
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+ERR: 非法操作:Public
+
+[ 2018-09-17T17:33:21+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/Public/Zyly/css/goodsInfo.css
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+ERR: 非法操作:Public
+
+[ 2018-09-17T17:33:21+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/Public/Zyly/css/swiper-3.4.0.min.css
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+ERR: 非法操作:Public
+
+[ 2018-09-17T17:33:21+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/Public/Zyly/js/jquery-2.2.2.min.js
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+ERR: 非法操作:Public
+
+[ 2018-09-17T17:33:21+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/Public/Zyly/js/swiper-3.4.2.jquery.min.js
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+ERR: 非法操作:Public
+
+[ 2018-09-17T17:33:21+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/Public/Zyly/images/bann4@2x.png
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:33:21+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/Public/Zyly/js/swiper-3.4.2.jquery.min.js
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+ERR: 非法操作:Public
+
+[ 2018-09-17T17:33:21+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/Public/Zyly/images/huohuo@2x.png
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:33:22+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/Public/Zyly/images/goods.png
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:33:22+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/Public/Zyly/images/XXXXX@2x.png
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:33:22+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/Public/Zyly/images/jiantou@2x1.png
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:33:22+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/Public/Zyly/images/taoxingxi@2x.png
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:33:22+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/Public/Zyly/images/kefuIcon@2x.png
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:33:23+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/Public/Zyly/images/head.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:34:34+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=284
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:37:23+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=284
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'photo_str' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_str` FROM `lr_product` ORDER BY sort desc 
+ERR: 1054:Unknown column 'photo_str' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_str` FROM `lr_product` ORDER BY sort desc 
+
+[ 2018-09-17T17:37:55+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=284
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0080s ]
+ERR: 1054:Unknown column 'photo_str' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_str` FROM `lr_product` WHERE `id` = 284 ORDER BY sort desc LIMIT 1  
+ERR: 1054:Unknown column 'photo_str' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_str` FROM `lr_product` WHERE `id` = 284 ORDER BY sort desc LIMIT 1  
+
+[ 2018-09-17T17:39:09+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=284
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+ERR: 1054:Unknown column 'photo_str' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_str` FROM `lr_product` WHERE `id` = 284 ORDER BY sort desc LIMIT 1  
+ERR: 1054:Unknown column 'photo_str' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_str` FROM `lr_product` WHERE `id` = 284 ORDER BY sort desc LIMIT 1  
+
+[ 2018-09-17T17:39:22+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=284
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 284 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-17T17:41:50+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=284
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 284 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-17T17:43:53+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=284
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 284 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-09-17T17:43:59+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:44:01+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=285
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 285 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-17T17:44:02+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T17:44:03+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=287
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 287 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-09-17T17:44:05+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:44:06+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=265
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 265 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-17T17:45:41+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=265
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 265 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T17:45:41+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=265
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 265 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T17:45:51+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=265
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 265 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-09-17T17:48:15+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=265
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 265 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'k' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 37 行.
+NOTIC: [2] Illegal string offset 'k' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 37 行.
+NOTIC: [2] Illegal string offset 'k' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:48:15+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/U
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+ERR: 非法操作:U
+
+[ 2018-09-17T17:48:15+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/U
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+ERR: 非法操作:U
+
+[ 2018-09-17T17:48:33+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=265
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 265 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:48:33+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/1
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+ERR: 非法操作:1
+
+[ 2018-09-17T17:48:33+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/2
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+ERR: 非法操作:2
+
+[ 2018-09-17T17:48:33+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/1
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+ERR: 非法操作:1
+
+[ 2018-09-17T17:48:34+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/3
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+ERR: 非法操作:3
+
+[ 2018-09-17T17:48:48+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=265
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 265 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-17T17:49:36+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=265
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 265 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-09-17T17:49:38+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=265
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 265 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-09-17T17:49:45+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=265
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 265 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:49:45+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/UploadFiles/product/20170526/1495771392559257.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:49:45+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/UploadFiles/product/20170526/1495771392113053.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:49:45+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/UploadFiles/product/20170526/1495771392559257.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:49:46+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/UploadFiles/product/20170526/1495771392237398.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:49:46+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=265
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 265 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:49:46+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/UploadFiles/product/20170526/1495771392559257.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:49:47+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/UploadFiles/product/20170526/1495771392113053.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:49:47+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/UploadFiles/product/20170526/1495771392559257.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:49:48+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/UploadFiles/product/20170526/1495771392237398.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T17:51:05+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T17:51:08+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=279
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 279 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:51:09+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/UploadFiles/product/20170526/1495760448897946.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:51:09+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/UploadFiles/product/20170526/1495760448281318.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:51:09+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/UploadFiles/product/20170526/1495760448437075.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T17:51:09+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/UploadFiles/product/20170526/1495760448897946.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:51:10+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T17:51:14+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=289
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 289 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:51:43+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=289
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 289 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:51:43+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/__Data__/
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+ERR: 非法操作:__Data__
+
+[ 2018-09-17T17:51:43+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/__Data__/
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+ERR: 非法操作:__Data__
+
+[ 2018-09-17T17:52:06+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=289
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 289 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T17:52:08+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=289
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 289 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:52:09+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=289
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 289 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T17:52:30+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=289
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 289 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T17:57:55+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=289
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 289 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:58:04+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=289
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 289 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T17:58:26+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=289
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 289 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-17T17:58:34+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:58:36+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=288
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 288 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-09-17T17:59:48+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=288
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 288 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T17:59:48+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/UploadFiles/product/20170630/1498823999249234.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T17:59:48+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/UploadFiles/product/20170630/1498823999249234.jpg
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:00:12+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=288
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 288 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:00:16+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:00:18+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=289
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 289 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:00:20+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:00:21+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=264
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 264 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:00:24+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:00:25+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=289
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 289 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:01:47+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=289
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 289 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:01:50+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:01:51+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:01:54+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T18:01:56+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/index
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price` FROM `lr_product` ORDER BY sort desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `lr_guanggao` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `lr_guanggao`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:02:09+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:11:38+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: goos E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 102 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'name' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 53 行.
+NOTIC: [2] Illegal string offset 'intro' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:11:59+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: goos E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 102 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'name' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 53 行.
+NOTIC: [2] Illegal string offset 'intro' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:12:00+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: goos E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 102 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'name' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 53 行.
+NOTIC: [2] Illegal string offset 'intro' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:12:00+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: goos E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 102 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'name' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 53 行.
+NOTIC: [2] Illegal string offset 'intro' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:12:14+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-09-17T18:12:26+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'name' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 53 行.
+NOTIC: [2] Illegal string offset 'intro' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:12:27+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'name' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 53 行.
+NOTIC: [2] Illegal string offset 'intro' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:12:28+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'name' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 53 行.
+NOTIC: [2] Illegal string offset 'intro' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:12:29+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'name' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 53 行.
+NOTIC: [2] Illegal string offset 'intro' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-09-17T18:12:29+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'name' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 53 行.
+NOTIC: [2] Illegal string offset 'intro' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T18:12:29+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'name' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 53 行.
+NOTIC: [2] Illegal string offset 'intro' E:\www\tour\Application\Runtime\Cache\Zyly\e8b7bf5cb3754b6ea8e0aa9ae5288bad.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:13:00+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T18:13:25+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string`,`content` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-09-17T18:13:45+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string`,`content` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-09-17T18:14:39+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string`,`content` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-09-17T18:14:54+08:00 ] 127.0.0.1 /index.php/Zyly/Goods/detail.html?id=290
+NOTIC: [8] Use of undefined constant SHOW_PAGE_TRACE - assumed 'SHOW_PAGE_TRACE' E:\www\tour\Application\Common\Conf\debug.php 第 4 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: admin_id E:\www\tour\Application\Zyly\Controller\GoodsController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `lr_product` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`name`,`intro`,`photo_x`,`sort`,`shiyong`,`price`,`photo_string`,`content` FROM `lr_product` WHERE `id` = 290 ORDER BY sort desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

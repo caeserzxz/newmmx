@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "PingFang SC";
+}
+ul li {
+  list-style: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+}
+.line {
+  height: .2rem;
+  background: #eee;
+}
+.load {
+  height: 1.46rem;
+  background: #eee;
+  margin-bottom: 1.1rem;
+}
+.load .span-c3 {
+  font-size: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+.load .span-c3 span {
+  display: inline-block;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 50%;
+  margin-top: .3rem;
+}
+.load .span-c3 span:nth-child(1) {
+  background: #ffcc41;
+}
+.load .span-c3 span:nth-child(2) {
+  background: #fff;
+}
+.load p {
+  font-size: .24rem;
+  text-align: center;
+  color: #999;
+  padding-top: 0.2rem;
+}
+.span-c3 span:nth-child(1) {
+  animation: loader1 1s linear infinite;
+}
+.span-c3 span:nth-child(2) {
+  animation: loader2 1s linear infinite;
+}
+@keyframes loader1 {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(0.4rem);
+  }
+}
+@keyframes loader2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-0.4rem);
+  }
+}
+.hideBox {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  z-index: 9;
+}
+.hideBox .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.hideBox .swiper-container .swiper-wrapper .swiper-slide {
+  width: 5.6rem;
+  height: 5rem;
+  box-sizing: border-box;
+  padding: 0 .5rem;
+  border-radius: .2rem;
+  background: #fff;
+}
+.hideBox .swiper-container .swiper-wrapper .swiper-slide i {
+  display: inline-block;
+  background: url("../images/xxxxx@2x.png") no-repeat center;
+  background-size: .2rem;
+  width: .2rem;
+  height: .2rem;
+  position: absolute;
+  right: .3rem;
+  top: .3rem;
+}
+.hideBox .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 1.32rem;
+  height: 1.32rem;
+  display: block;
+  margin: .6rem auto 0;
+}
+.hideBox .swiper-container .swiper-wrapper .swiper-slide .itemName {
+  text-align: center;
+  padding: .2rem 0;
+  display: block;
+  font-size: .28rem;
+  color: #333;
+  font-weight: 900;
+}
+.hideBox .swiper-container .swiper-wrapper .swiper-slide p {
+  margin-top: .3rem;
+  line-height: .4rem;
+  font-size: .24rem;
+  color: #999;
+}
+.memberCenter .topBox {
+  box-sizing: border-box;
+}
+.memberCenter .topBox .exmIcon {
+  text-align: right;
+  margin-right: .6rem;
+}
+.memberCenter .topBox .exmIcon i {
+  margin-top: .3rem;
+  top: .2rem;
+  right: .5rem;
+  display: inline-block;
+  width: .29rem;
+  height: .29rem;
+  background: url("../images/-----@2x.png") no-repeat center;
+  background-size: .29rem;
+}
+.memberCenter .topBox .headBox img {
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: .1rem;
+  display: block;
+  margin: 0 auto;
+}
+.memberCenter .topBox .nameBox {
+  margin-top: .1rem;
+  font-size: .32rem;
+  color: #333;
+  text-align: center;
+}
+.memberCenter .topBox .levBox {
+  display: flex;
+  padding: .4rem 0;
+  position: relative;
+}
+.memberCenter .topBox .levBox .levItem {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.memberCenter .topBox .levBox .levItem img {
+  width: .91rem;
+  height: .9rem;
+}
+.memberCenter .topBox .levBox .levItem span {
+  display: inline-block;
+  padding: .1rem 0;
+  font-size: .24rem;
+  color: #999;
+}
+.memberCenter .botBox .botBox-tit p {
+  padding: .3rem;
+  font-size: .28rem;
+  color: #333;
+}
+.memberCenter .botBox .tqBox {
+  padding: 0 .3rem;
+  font-size: 0;
+}
+.memberCenter .botBox .tqBox .tqBoxItem {
+  margin-right: .7rem;
+  margin-top: .2rem;
+  display: inline-block;
+  width: 1.75rem;
+  height: 1.75rem;
+  border: .01rem solid #eee;
+  text-align: center;
+}
+.memberCenter .botBox .tqBox .tqBoxItem img {
+  margin-top: .24rem;
+  width: .74rem;
+  height: .74rem;
+}
+.memberCenter .botBox .tqBox .tqBoxItem span {
+  display: inline-block;
+  padding-top: .14rem;
+  font-size: .28rem;
+  color: #666;
+}
+.memberCenter .botBox .tqBox .tqBoxItem:nth-child(3n) {
+  margin-right: 0;
+}
+.mark {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .3;
+  z-index: 6;
+}
+.bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 7.5rem;
+  height: 1rem;
+  border-top: .01rem solid #eee;
+  border-bottom: .01rem solid #eee;
+  box-sizing: border-box;
+  z-index: 99;
+  background: #fff;
+}
+ .bottom .bottom-navItem {
+  width: 25%;
+  height: 1rem;
+  text-align: center;
+  font-size: 0;
+  float: left;
+}
+ .bottom .bottom-navItem img {
+  width: .42rem;
+  height: .42rem;
+  display: inline-block;
+  padding-top: .12rem;
+}
+ .bottom .bottom-navItem span {
+  font-size: .28rem;
+  color: #333;
+  display: block;
+}
+ .bottom .bottom-navItem-act span {
+  color: #ff3b74;
+}
+
+.no{
+  background: url("../images/no@2x.png") no-repeat;
+  background-size: 0.9rem;
+  background-position-x: 0.9rem;
+}
+.sbBtn{
+  position: absolute;
+  bottom: -.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.sbBtn span{
+  display: inline-block;
+  width: 1.6rem;
+  height: .5rem;
+  text-align: center;
+  line-height: .5rem;
+  background: #1abc9c;
+  border-radius: .1rem;
+  color: #fff;
+
+}
